@@ -1,30 +1,28 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 <p id="notice"><%= notice %></p>
 
 <h1>Our Bikes</h1>
+<body>
+  <div class="container">
+    <div class="row">
+      <% @products.each do |product| %>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <h3><%=product.name %></h3><br>
+          <%= image_tag(product.image_url, class: "img-responsive") %>
+          <p><%=product.description %></p>
+          <p><strong>$ <%=product.price %> / day</strong></p>
+          <td><%= link_to 'Show', product %></td><br>
+          <td><%= link_to 'Edit', edit_product_path(product) %></td><br>
+          <td><%= link_to 'Delete', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </div><!--end col-->
+      <% end %>
+    </div><!--end row-->
+  </div><!--end container-->
+</body>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Image url</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.image_url %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+
 
 <br>
 
