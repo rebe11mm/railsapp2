@@ -8,7 +8,7 @@
     <div class="row">
       <% @products.each do |product| %>
         <div class="col-sm-3 col-md-3 col-lg-3">
-          <h3><%=product.name %></h3><br>
+          <h3><%=product.name %></h3>
           <%= image_tag(product.image_url, class: "img-responsive") %>
           <p><%=product.description %></p>
           <p><strong>$ <%=product.price %> / day</strong></p>
