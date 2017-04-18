@@ -4012,3 +4012,12 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 108ms (Views: 104.0ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/products" for ::1 at 2017-04-18 11:15:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (11.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (10.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1236.2ms)
+Completed 200 OK in 1558ms (Views: 1410.3ms | ActiveRecord: 11.3ms)
+
+
