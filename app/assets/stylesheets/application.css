@@ -31,3 +31,8 @@ footer {
  	height: 52px;
  	text-align: center;
  }
+
+.carousel-caption {
+	padding-bottom: 0px;
+	font-size: 16pt;
+}
