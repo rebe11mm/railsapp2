@@ -1,0 +1,9 @@
+<div class="col-sm-3 col-md-3 col-lg-3">
+  <h3><%=product.name %></h3
+  <img><%= image_tag(product.image_url, class: "img-responsive") %>
+  <p><%=product.description %></p>
+  <p><strong>$ <%=product.price %> / day</strong></p>
+  <td><%= link_to 'Show', product %></td><br>
+  <td><%= link_to 'Edit', edit_product_path(product) %></td><br>
+  <td><%= link_to 'Delete', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</div><!--end col-->
