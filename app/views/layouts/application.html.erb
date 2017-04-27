@@ -20,10 +20,11 @@
   <body>
   	<nav>
   		<ul>
-  			<li><a href="../static_pages/index">Home</a></li>
-  			<li><a href="../static_pages/about">About</a></li>
-        <li><a href="../products">Products</a></li>
-  			<li><a href="../static_pages/contact">Contact</a></li>
+  			<li><%= link_to "Home", home_page_path %></li>
+        <li><%= link_to "About", about_page_path %></li>
+        <li><%= link_to "Products", 
+        products_page_path %></li>
+  			<li><%= link_to "Contact", contact_page_path %></li>
   		</ul> 
   	</nav>
 
