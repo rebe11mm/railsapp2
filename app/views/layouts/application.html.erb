@@ -4,6 +4,8 @@
     <title>Bikes of Berlin</title>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Shadows+Into+Light" rel="stylesheet">
   
   	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 
@@ -18,13 +20,20 @@
   </head>
 
   <body>
-  	<nav>
-  		<ul>
-  			<li><%= link_to "Home", home_page_path %></li>
+  	<nav class="navbar">
+      <ul>
+  			<li class="Homepage"><%= link_to "Bike Berlin", home_page_path %></li>
         <li><%= link_to "About", about_page_path %></li>
         <li><%= link_to "Products", 
         products_page_path %></li>
-  			<li><%= link_to "Contact", contact_page_path %></li>
+  			<li class="Contact"><%= link_to "Contact", contact_page_path %></li>
+        <li class="searchbar">
+          <%= form_tag("/products", method: "get") do %>
+          <%= label_tag(:q, "Search for:") %>
+          <%= text_field_tag(:q) %>
+          <%= submit_tag("Search") %>
+          <% end %>
+        </li>
   		</ul> 
   	</nav>
 

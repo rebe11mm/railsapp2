@@ -12,7 +12,7 @@ p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
+  margin: 10px;
 }
 
 pre {
@@ -37,6 +37,19 @@ div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
+}
+
+.field>label {
+  width: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #85144b;
+  font-size: 20px;
+  text-align: right;  
+}
+
+.field>input{
+  background-color: white;
+  width: 300px;
 }
 
 #notice {

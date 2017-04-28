@@ -7253,3 +7253,2684 @@ Processing by StaticPagesController#index as HTML
 Completed 200 OK in 158ms (Views: 138.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/landing_page" for ::1 at 2017-04-26 20:36:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/landing_page"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [17 times] (180.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (347.5ms)
+Started GET "/static_pages/index" for ::1 at 2017-04-26 20:37:07 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:11:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (232.1ms)
+Started GET "/" for ::1 at 2017-04-26 20:37:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (53.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (221.6ms)
+Started GET "/" for ::1 at 2017-04-26 20:37:56 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (548.1ms)
+Completed 200 OK in 2238ms (Views: 2099.8ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/?example_key=HelloWorld" for ::1 at 2017-04-26 20:38:23 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"example_key"=>"HelloWorld"}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (124.2ms)
+Completed 200 OK in 666ms (Views: 547.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-04-26 20:39:28 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (177.1ms)
+Completed 200 OK in 774ms (Views: 752.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/?example_key=10" for ::1 at 2017-04-26 20:39:51 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"example_key"=>"10"}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 392ms (Views: 371.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?welcome" for ::1 at 2017-04-26 20:45:46 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"welcome"=>nil}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (574.1ms)
+Completed 500 Internal Server Error in 739ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+append=  params[:example_key]"This is our featured product">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+<div id="carousel-example-gener
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+arousel-example-generic" class="carousel slide" data-ride="c
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+c" class="carousel slide" data-ride="carousel">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+	<!--indicators-->
+	 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+		<li data-target="#carousel-exam
+		 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+  </ol>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+  <!-- Controls -->
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+  <!-- Controls -->
+                 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+s="left carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+le-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+n glyphicon-chevron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+ron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+    <span class="sr-only">Next</spa
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.t
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file):
+  
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+append=  params[:example_key]"This is our featured product">
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (86.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (99.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (669.6ms)
+Started GET "/?welcome" for ::1 at 2017-04-26 20:45:53 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"welcome"=>nil}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+fer.append=  params[:welcome]"This is our featured product">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+<div id="carousel-example-gener
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+arousel-example-generic" class="carousel slide" data-ride="c
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+c" class="carousel slide" data-ride="carousel">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+	<!--indicators-->
+	 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+		<li data-target="#carousel-exam
+		 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+  </ol>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+  <!-- Controls -->
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+  <!-- Controls -->
+                 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+s="left carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+le-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+n glyphicon-chevron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+ron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+    <span class="sr-only">Next</spa
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.t
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file):
+  
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.8ms)
+Started GET "/?welcome=welcome" for ::1 at 2017-04-26 20:46:00 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"welcome"=>"welcome"}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+fer.append=  params[:welcome]"This is our featured product">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+<div id="carousel-example-gener
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+arousel-example-generic" class="carousel slide" data-ride="c
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+c" class="carousel slide" data-ride="carousel">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+	<!--indicators-->
+	 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+		<li data-target="#carousel-exam
+		 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="0" class="active"><
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+neric" data-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+-slide-to="0" class="active"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+    <li data-target="#carousel-exam
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+e-generic" data-slide-to="2"></li>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+  </ol>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+  <!-- Controls -->
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+  <!-- Controls -->
+                 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+s="left carousel-control" href="#carousel-example-generic" r
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+carousel-example-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+le-generic" role="button" data-slide="prev">
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+    <span class="glyphicon glyphico
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+n glyphicon-chevron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+ron-left" aria-hidden="true"></span>
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+  </a>
+   ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+    <span class="sr-only">Next</spa
+     ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.t
+ ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file):
+  
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:10: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:11: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:21: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:22: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:24: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:26: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:28: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:29: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:30: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:32: unknown regexp options - pa
+app/views/static_pages/landing_page.html.erb:33: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:34: unknown regexp option - a
+app/views/static_pages/landing_page.html.erb:35: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:35: unterminated regexp meets end of file
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.1ms)
+Started GET "/?welcome=welcome" for ::1 at 2017-04-26 20:46:16 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Parameters: {"welcome"=>"welcome"}
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 366ms (Views: 362.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for ::1 at 2017-04-26 20:46:46 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (39.3ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (91.2ms)
+Completed 200 OK in 182ms (Views: 177.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/new" for ::1 at 2017-04-26 20:46:48 -0400
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.8ms)
+  Rendered products/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 166ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for ::1 at 2017-04-26 20:48:44 -0400
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H9Y78rLjmkLatULQAULUKoORYgX/gbCdXh6pqNZQutqaY3+lGpZUHXp7yguqAsrUzwEIy8wsTG4F+TOEbmHD/A==", "product"=>{"name"=>"the name", "description"=>"", "image_url"=>"", "price"=>"", "colour"=>""}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (284.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at", "colour") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "the name"], ["description", ""], ["image_url", ""], ["created_at", 2017-04-27 00:48:45 UTC], ["updated_at", 2017-04-27 00:48:45 UTC], ["colour", ""]]
+  [1m[35m (233.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/31
+Completed 302 Found in 523ms (ActiveRecord: 517.1ms)
+
+
+Started GET "/products/31" for ::1 at 2017-04-26 20:48:45 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 629ms (Views: 540.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products/31/edit" for ::1 at 2017-04-26 20:48:56 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.9ms)
+  Rendered products/edit.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 76ms (Views: 59.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/31" for ::1 at 2017-04-26 20:49:00 -0400
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ml6p1zzS2IQVdCV1bNlhXt5xVd1slIOzdsNBGT/x2BlTtyNyf+GU2z9tK70oXp8rbDyWp7I88RhtKtHO1lvOmQ==", "product"=>{"name"=>"", "description"=>"", "image_url"=>"", "price"=>"", "colour"=>""}, "commit"=>"Update Product", "id"=>"31"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "products" SET "name" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["name", ""], ["updated_at", 2017-04-27 00:49:00 UTC], ["id", 31]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/31
+Completed 302 Found in 65ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/products/31" for ::1 at 2017-04-26 20:49:00 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 32.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-26 20:49:03 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (9.2ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (0.2ms)
+  Rendered products/index.html.erb within layouts/application (51.5ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/products/31" for ::1 at 2017-04-26 20:49:07 -0400
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LUQoukU7H1IqOLZLbqpJoCclCjKZAxi2OWeP/Sqg483qdZCj6QS0c538bYhGIhXbehnVY3d9BYcWYpvUY0XEeg==", "id"=>"31"}
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 31]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 8ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/products" for ::1 at 2017-04-26 20:49:07 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.7ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (2.3ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 138ms (Views: 131.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-26 21:04:32 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (98.1ms)
+  Rendered products/_product.html.erb (12.8ms)
+  Rendered products/_product.html.erb (46.4ms)
+  Rendered products/_product.html.erb (19.3ms)
+  Rendered products/index.html.erb within layouts/application (224.6ms)
+Completed 200 OK in 1251ms (Views: 1246.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=tandem&commit=Search" for ::1 at 2017-04-26 21:05:26 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"tandem", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (22.8ms)
+  Rendered products/_product.html.erb (24.6ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (118.9ms)
+Completed 200 OK in 364ms (Views: 361.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-26 21:05:41 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (99.0ms)
+Completed 200 OK in 155ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=tandem&commit=Search" for ::1 at 2017-04-26 21:05:44 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"tandem", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (31.5ms)
+  Rendered products/_product.html.erb (2.0ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/index.html.erb within layouts/application (84.1ms)
+Completed 200 OK in 122ms (Views: 118.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=new+product&commit=Search" for ::1 at 2017-04-26 21:05:53 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"new product", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.3ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 52ms (Views: 48.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=about&commit=Search" for ::1 at 2017-04-26 21:05:56 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"about", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (1.8ms)
+  Rendered products/_product.html.erb (1.1ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-26 21:06:00 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 102ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=about&commit=Search" for ::1 at 2017-04-26 21:06:02 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"about", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.3ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=about&commit=Search" for ::1 at 2017-04-27 07:41:06 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"about", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305676204760'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (84.8ms)
+Started GET "/products?utf8=%E2%9C%93&q=about&commit=Search" for ::1 at 2017-04-27 07:41:16 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"about", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (21.4ms)
+Completed 500 Internal Server Error in 352ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305638988460'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (175.4ms)
+Started GET "/" for ::1 at 2017-04-27 07:41:27 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (52.5ms)
+Completed 200 OK in 579ms (Views: 344.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-27 07:41:35 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 139ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-27 07:41:37 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (9.2ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 88ms (Views: 83.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-27 07:41:39 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=&commit=Search" for ::1 at 2017-04-27 07:41:43 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305690196400'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.9ms)
+Started GET "/static_pages/contact" for ::1 at 2017-04-27 07:41:46 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=bikes&commit=Search" for ::1 at 2017-04-27 07:41:49 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"bikes", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305666564520'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.0ms)
+Started GET "/products?utf8=%E2%9C%93&q=bikes&commit=Search" for ::1 at 2017-04-27 07:46:16 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"bikes", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/products/index.html.erb:10: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;       @products do |product| 
+                            ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/products/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/products/index.html.erb:10: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/products/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (27.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.1ms)
+Started GET "/products?utf8=%E2%9C%93&q=bikes&commit=Search" for ::1 at 2017-04-27 07:46:30 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"bikes", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305644771820'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.9ms)
+Started GET "/products?utf8=%E2%9C%93&q=bikes&commit=Search" for ::1 at 2017-04-27 07:53:02 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"bikes", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305669426360'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.8ms)
+Started GET "/" for ::1 at 2017-04-27 07:53:09 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 341ms (Views: 261.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 07:53:14 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305690663260'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.1ms)
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 07:59:24 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (8.5ms)
+  Rendered products/_product.html.erb (8.8ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (67.3ms)
+Completed 200 OK in 585ms (Views: 439.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 08:00:21 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search' for #<Class:0x007fe29decce58>):
+  
+app/controllers/products_controller.rb:9:in `index'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.5ms)
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 08:04:52 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:   <h1>Our Bikes</h1>
+     8:   <div class="container">
+     9:     <div class="row">
+    10:       <% @products.each do |product| %>
+    11:         <%= render product %>
+    12:       <% end %>
+    13:     </div><!--end row-->
+  
+app/views/products/index.html.erb:10:in `_app_views_products_index_html_erb__2436182727283946004_70305667285300'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.0ms)
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 08:07:38 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search' for #<Class:0x007fe2a36ee7a8>):
+  
+app/controllers/products_controller.rb:9:in `index'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.9ms)
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-27 08:10:08 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%mountain%')[0m
+  Rendered products/_product.html.erb (36.7ms)
+  Rendered products/index.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 342ms (Views: 326.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 08:06:52 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (43.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (15.2ms)
+  Rendered products/edit.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 551ms (Views: 446.2ms | ActiveRecord: 43.1ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:11:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 308ms (Views: 269.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:13:12 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 672ms (Views: 654.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 08:13:16 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:13:17 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (6.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (47.6ms)
+  Rendered products/_product.html.erb (2.4ms)
+  Rendered products/_product.html.erb (3.3ms)
+  Rendered products/_product.html.erb (3.5ms)
+  Rendered products/index.html.erb within layouts/application (109.7ms)
+Completed 200 OK in 158ms (Views: 148.4ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 08:13:19 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:13:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 87ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:14:38 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 328ms (Views: 325.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:15:14 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 187ms (Views: 182.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:16:51 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 152ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:17:03 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (14.2ms)
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 105ms (Views: 99.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:17:05 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:18:31 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (13.9ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 296ms (Views: 279.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:19:05 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (18.7ms)
+  Rendered products/_product.html.erb (2.3ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (2.3ms)
+  Rendered products/index.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 243ms (Views: 239.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:19:43 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (35.7ms)
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 406ms (Views: 402.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:20:00 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.9ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (1.1ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 152ms (Views: 148.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:20:10 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.1ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 57ms (Views: 51.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 08:20:11 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 08:20:40 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 08:20:45 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/_product.html.erb (1.1ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/index.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 86ms (Views: 80.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 08:21:00 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 08:22:06 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 08:22:23 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 08:22:24 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 36ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:22:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 107ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:22:38 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:23:33 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (88.5ms)
+Completed 200 OK in 120ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:24:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 98ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:25:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 08:25:44 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (112.8ms)
+Completed 200 OK in 144ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:47:17 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (161.6ms)
+Completed 200 OK in 407ms (Views: 384.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:48:27 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (309.2ms)
+Completed 200 OK in 585ms (Views: 561.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:50:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (109.5ms)
+Completed 200 OK in 243ms (Views: 239.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:51:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (90.8ms)
+Completed 200 OK in 119ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:51:57 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (50.7ms)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:52:37 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (150.6ms)
+Completed 200 OK in 185ms (Views: 180.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:52:59 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:57:35 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (130.6ms)
+Completed 200 OK in 396ms (Views: 372.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:58:10 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (188.4ms)
+Completed 200 OK in 222ms (Views: 217.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 09:58:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:00:18 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (149.9ms)
+Completed 200 OK in 307ms (Views: 283.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:02:37 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (124.9ms)
+Completed 200 OK in 352ms (Views: 327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:02:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (204.2ms)
+Completed 200 OK in 238ms (Views: 234.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:04:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:05:12 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (72.2ms)
+Completed 200 OK in 105ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:05:27 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (111.4ms)
+Completed 200 OK in 139ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:07:14 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (64.4ms)
+Completed 200 OK in 151ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:07:32 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (80.3ms)
+Completed 200 OK in 111ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:07:44 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 115ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:07:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (72.2ms)
+Completed 200 OK in 102ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:37:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (237.7ms)
+Completed 200 OK in 472ms (Views: 439.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:37:30 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (133.9ms)
+Completed 200 OK in 198ms (Views: 192.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:38:01 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (253.8ms)
+Completed 200 OK in 385ms (Views: 350.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:38:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (134.5ms)
+Completed 200 OK in 230ms (Views: 216.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:39:09 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 91ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:39:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (116.3ms)
+Completed 200 OK in 147ms (Views: 143.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:40:02 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 51ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:43:09 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (67.7ms)
+Completed 200 OK in 100ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:43:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:43:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (60.6ms)
+Completed 200 OK in 92ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:44:21 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (100.1ms)
+Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:45:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:47:11 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (51.9ms)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:47:24 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 43ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:53:07 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (48.5ms)
+Completed 200 OK in 130ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:54:06 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:57:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (184.6ms)
+Completed 200 OK in 257ms (Views: 254.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:58:30 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 40ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 10:58:32 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 41ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:00:07 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 43ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:02:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 39ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:11:32 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (190.5ms)
+Completed 200 OK in 430ms (Views: 406.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:12:02 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 119ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:12:11 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (163.4ms)
+Completed 200 OK in 195ms (Views: 191.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:19:14 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (96.0ms)
+Completed 200 OK in 263ms (Views: 240.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:22:05 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (173.0ms)
+Completed 200 OK in 470ms (Views: 442.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:22:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 238ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:22:58 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 141ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:26:14 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (216.7ms)
+Completed 200 OK in 464ms (Views: 440.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:27:01 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 114ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:27:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (107.7ms)
+Completed 200 OK in 137ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:28:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:29:18 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 120ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:29:22 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:30:04 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 63ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:30:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (135.4ms)
+Completed 200 OK in 170ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:30:47 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (77.5ms)
+Completed 200 OK in 117ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:32:52 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (99.3ms)
+Completed 200 OK in 197ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:33:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 79ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:33:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (88.4ms)
+Completed 200 OK in 121ms (Views: 118.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:33:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 111ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:34:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (92.3ms)
+Completed 200 OK in 209ms (Views: 195.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:34:32 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 86ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:36:28 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 110ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:36:41 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:39:42 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (294.8ms)
+Completed 200 OK in 339ms (Views: 336.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:39:58 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:40:39 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 128ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:41:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (106.7ms)
+Completed 200 OK in 139ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:41:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (52.8ms)
+Completed 200 OK in 87ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:41:48 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 93ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:42:28 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:42:52 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 50ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:43:55 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (97.2ms)
+Completed 200 OK in 132ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:44:09 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 99ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:44:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:44:35 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:45:18 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 95ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:46:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (92.7ms)
+Completed 200 OK in 124ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:47:00 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 104ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:47:20 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:47:43 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (96.4ms)
+Completed 200 OK in 127ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:48:14 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:48:25 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:48:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:49:35 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products?utf8=%E2%9C%93&q=mountain&commit=Search" for ::1 at 2017-04-28 11:49:42 -0400
+Processing by ProductsController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"mountain", "commit"=>"Search"}
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (12.6ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE (name LIKE '%mountain%')[0m
+  Rendered products/_product.html.erb (13.4ms)
+  Rendered products/index.html.erb within layouts/application (94.8ms)
+Completed 200 OK in 205ms (Views: 132.9ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:49:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 44ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:50:44 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:51:01 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:51:15 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 85ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:51:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 92ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:54:28 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (136.4ms)
+Completed 200 OK in 361ms (Views: 347.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:54:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 241ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:56:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (137.6ms)
+Completed 200 OK in 442ms (Views: 388.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:56:54 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (91.7ms)
+Completed 200 OK in 121ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:57:12 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (156.7ms)
+Completed 200 OK in 268ms (Views: 254.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 11:57:42 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 106ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:02:19 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (270.8ms)
+Completed 200 OK in 479ms (Views: 460.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:02:55 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (170.3ms)
+Completed 200 OK in 374ms (Views: 350.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:03:49 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (243.7ms)
+Completed 200 OK in 575ms (Views: 551.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:05:43 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (133.0ms)
+Completed 200 OK in 374ms (Views: 350.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:05:54 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (169.2ms)
+Completed 200 OK in 204ms (Views: 201.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:06:52 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:07:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (106.6ms)
+Completed 200 OK in 137ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:07:27 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (86.3ms)
+Completed 200 OK in 121ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:07:56 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (86.7ms)
+Completed 200 OK in 185ms (Views: 172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:08:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 91ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:08:44 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (80.9ms)
+Completed 200 OK in 113ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:10:02 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (80.6ms)
+Completed 200 OK in 115ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:10:36 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (121.9ms)
+Completed 200 OK in 151ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:11:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:11:59 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:12:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 76ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:12:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (85.2ms)
+Completed 200 OK in 118ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:12:43 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (96.5ms)
+Completed 200 OK in 134ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:12:50 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (92.1ms)
+Completed 200 OK in 122ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:13:39 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (101.6ms)
+Completed 200 OK in 136ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:13:44 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (68.2ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 12:14:07 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 40ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:14:10 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (13.5ms)
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/_product.html.erb (1.6ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 100ms (Views: 94.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 12:14:12 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 130ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:14:13 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (9.6ms)
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (2.5ms)
+  Rendered products/_product.html.erb (2.1ms)
+  Rendered products/index.html.erb within layouts/application (66.7ms)
+Completed 200 OK in 139ms (Views: 130.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 12:14:15 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 54ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:14:16 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (7.3ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (2.7ms)
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/index.html.erb within layouts/application (53.3ms)
+Completed 200 OK in 121ms (Views: 112.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 12:14:18 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:14:19 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 118ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 12:14:21 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 51ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:14:22 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (4.5ms)
+  Rendered products/_product.html.erb (2.2ms)
+  Rendered products/_product.html.erb (15.4ms)
+  Rendered products/_product.html.erb (2.5ms)
+  Rendered products/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 124ms (Views: 115.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:14:25 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 80ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:14:54 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (68.2ms)
+Completed 200 OK in 97ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:14:56 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.7ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 64ms (Views: 58.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/27" for ::1 at 2017-04-28 12:19:22 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 652ms (Views: 464.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:19:26 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.6ms)
+  Rendered products/edit.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 52ms (Views: 46.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:19:31 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (14.9ms)
+  Rendered products/_product.html.erb (2.4ms)
+  Rendered products/_product.html.erb (3.1ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (79.2ms)
+Completed 200 OK in 134ms (Views: 124.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:20:24 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.4ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (277.6ms)
+Completed 200 OK in 307ms (Views: 302.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:20:43 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.1ms)
+  Rendered products/_product.html.erb (1.4ms)
+  Rendered products/_product.html.erb (1.0ms)
+  Rendered products/_product.html.erb (1.1ms)
+  Rendered products/index.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 67ms (Views: 62.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:20:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 73ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:21:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (126.6ms)
+Completed 200 OK in 163ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 12:21:05 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 40ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:21:07 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (13.2ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/index.html.erb within layouts/application (73.8ms)
+Completed 200 OK in 107ms (Views: 102.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 12:21:10 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (492.1ms)
+Completed 200 OK in 524ms (Views: 521.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:21:15 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (9.4ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (5.7ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (59.8ms)
+Completed 200 OK in 111ms (Views: 98.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:22:08 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (13.5ms)
+  Rendered products/_product.html.erb (41.4ms)
+  Rendered products/_product.html.erb (1.5ms)
+  Rendered products/_product.html.erb (1.8ms)
+  Rendered products/index.html.erb within layouts/application (394.1ms)
+Completed 200 OK in 496ms (Views: 492.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-04-28 12:22:16 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:22:17 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (3.9ms)
+  Rendered products/_product.html.erb (2.6ms)
+  Rendered products/_product.html.erb (2.8ms)
+  Rendered products/_product.html.erb (2.4ms)
+  Rendered products/index.html.erb within layouts/application (58.5ms)
+Completed 200 OK in 125ms (Views: 117.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-04-28 12:22:19 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-04-28 12:22:21 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 122ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-04-28 12:22:23 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (2.5ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/_product.html.erb (4.0ms)
+  Rendered products/_product.html.erb (1.7ms)
+  Rendered products/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 130ms (Views: 121.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27" for ::1 at 2017-04-28 12:23:08 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 131ms (Views: 121.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:23:14 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.1ms)
+  Rendered products/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 44ms (Views: 39.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:25:38 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.3ms)
+  Rendered products/edit.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 262ms (Views: 259.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:26:45 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.2ms)
+  Rendered products/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 219ms (Views: 215.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:27:06 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.0ms)
+  Rendered products/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 131ms (Views: 126.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:27:25 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.7ms)
+  Rendered products/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:27:57 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.2ms)
+  Rendered products/edit.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...nd color: white": expected "{", was ";"):
+     7: 
+     8:     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Shadows+Into+Light" rel="stylesheet">
+     9:   
+    10:   	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    11: 
+    12:   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    13:   	
+  
+app/assets/stylesheets/scaffolds.scss:47
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__1145953438822424947_70305696385560'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.1ms)
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:28:05 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.0ms)
+  Rendered products/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 130ms (Views: 126.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:28:33 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.4ms)
+  Rendered products/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 151ms (Views: 143.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:29:14 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.7ms)
+  Rendered products/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 66ms (Views: 62.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:30:00 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.0ms)
+  Rendered products/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 45ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:30:34 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.0ms)
+  Rendered products/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 252ms (Views: 248.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:30:40 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.6ms)
+  Rendered products/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 168ms (Views: 163.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:31:23 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.6ms)
+  Rendered products/edit.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 176ms (Views: 169.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:31:53 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.9ms)
+  Rendered products/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 145ms (Views: 139.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:32:07 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.1ms)
+  Rendered products/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:32:12 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.3ms)
+  Rendered products/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 195ms (Views: 191.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:32:25 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.7ms)
+  Rendered products/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 150ms (Views: 146.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:32:56 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.7ms)
+  Rendered products/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 97ms (Views: 94.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/27/edit" for ::1 at 2017-04-28 12:33:07 -0400
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.7ms)
+  Rendered products/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.2ms)
+
+

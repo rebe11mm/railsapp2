@@ -14,14 +14,57 @@
  *= require_self
  */
 
-li {
-	font-family: Tahoma, Geneva, sans-serif;
-	color: blue;
+li, a, .searchbar {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #6b6244;
 	text-align: center;
 	display: inline-block;
-	padding: 20px;
-	color: green;
+	padding: 5px;
+	font-size: 16px;
 }
+
+.Homepage a {
+	color: #85144b;
+	font-size: 25px;
+	padding-right: 20px;
+}
+
+.Homepage a:hover {
+	text-decoration: none;
+}
+
+.searchbar {
+	float: right;
+	color: #444d6b;
+	font-size: 16px;
+	margin-top: 3px;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #fcebf3;
+	border-color: #444d6b;
+	border: 1px solid #999;
+	font-size: 14px;
+
+}
+
+input:hover {
+	background-color: white;
+}
+
+input#q {
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+
 
 footer {
 	font-family: Tahoma, Geneva, sans-serif;
@@ -35,4 +78,18 @@ footer {
 .carousel-caption {
 	padding-bottom: 0px;
 	font-size: 16pt;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #85144b;
+	text-align: center;
+	font-size: 60px;
+
+}
+
+h2, h3 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #444d6b;
+	text-align: center;
 }
