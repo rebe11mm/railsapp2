@@ -10241,3 +10241,727 @@ Did this work
 Completed 200 OK in 59ms (Views: 30.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static_pages/thank_you" for ::1 at 2017-05-03 13:58:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (32.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.1ms)
+Started GET "/" for ::1 at 2017-05-03 13:58:06 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (45.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (129.5ms)
+Completed 200 OK in 786ms (Views: 622.4ms | ActiveRecord: 45.9ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 13:58:10 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 13:58:21 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"txg4dbpIxXIePGZBS1NRT1FbuIVB027E9erUWdGLR3UpauBa/5R8QNHHh/Z7axwrGZ91h4UPgrBUHp1pjeiegA==", "name"=>"rm", "email"=>"kjd", "message"=>"kjd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 1048ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `contact_form' for UserMailer:Class):
+  
+app/controllers/static_pages_controller.rb:27:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.0ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 13:58:41 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 175ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 13:58:43 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qVjlyPZPRnOufDV4YO71POGnMScrwBZTYQvTEkJjRLBuaV3RWnDtUhm47rtIZqlHvJvudsW+C2JODsc7C4ZjBw==", "name"=>"rm", "email"=>"kjd", "message"=>"kjd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject=>"A new contact form m
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:27:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (29.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.0ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:00:31 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (99.8ms)
+Completed 200 OK in 390ms (Views: 385.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:00:34 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a5HZz1cE1nMO6iLI7S/XYFVo6R2hE5oNFNJZphXGUgasoGHW+zt9Urku+QvFp4sbCFQ2TE9thzw7102PXCN1sQ==", "name"=>"rm", "email"=>"kjd", "message"=>"kjd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject=>"A new contact form m
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.6ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:00:49 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:00:50 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:00:57 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2ebfxmyesF0gM7MD3TjVXqO3yTuuqV1n8Ppb8gx3XKYe12ffwKEbfJf3aMD1sIkl/osWakDXQFbf/0/bRZJ7EQ==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject=>"A new contact form m
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.3ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:01:03 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:01:33 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1juadp/JAGjwvsGiAmXAYaCw9d28Y4tgOc/64JX93JYRCiJvM/arSUd6GmEq7Zwa/YwqjFIdllEWyu7J3Bj7IQ==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject=>"A new contact form m
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.0ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:03:21 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1juadp/JAGjwvsGiAmXAYaCw9d28Y4tgOc/64JX93JYRCiJvM/arSUd6GmEq7Zwa/YwqjFIdllEWyu7J3Bj7IQ==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.6ms)
+Started GET "/rails/mailers/user_mailer" for ::1 at 2017-05-03 14:09:11 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"internal"=>true, "path"=>"user_mailer"}
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/mailers/mailer.html.erb within layouts/application
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/mailers/mailer.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 121ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/user_mailer/contact_form" for ::1 at 2017-05-03 14:09:16 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"internal"=>true, "path"=>"user_mailer/contact_form"}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.6ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:12:20 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1juadp/JAGjwvsGiAmXAYaCw9d28Y4tgOc/64JX93JYRCiJvM/arSUd6GmEq7Zwa/YwqjFIdllEWyu7J3Bj7IQ==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.9ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:12:23 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (100.8ms)
+Completed 200 OK in 323ms (Views: 319.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:12:25 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7tluG7RY6jXzWpVR9pjS6V0dTBAKsG3+CYXnUmDnfCwp6NYCGGdBFESeTpLeEI6SACGTQeTOcM8mgPN7KQJbmw==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:12:27 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 14:12:28 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (161.4ms)
+Completed 200 OK in 204ms (Views: 191.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 14:12:29 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (76.6ms)
+Completed 200 OK in 117ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:12:31 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:12:38 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hKhFvTBjAXqxS/dAhnEWvqEP9P8looTq8ugu6Pp+Vqka2p2Sdb+4SH6wFve2SVva6cs5/eF+aJ5THGfYph2PXA==", "name"=>"rm", "email"=>"rm", "message"=>"rm", "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.4ms)
+Started GET "/rails/mailers/user_mailer" for ::1 at 2017-05-03 14:14:18 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"internal"=>true, "path"=>"user_mailer"}
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/mailers/mailer.html.erb within layouts/application
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/railties-5.0.1/lib/rails/templates/rails/mailers/mailer.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/mailers/user_mailer/contact_form" for ::1 at 2017-05-03 14:14:21 -0400
+Processing by Rails::MailersController#preview as HTML
+  Parameters: {"internal"=>true, "path"=>"user_mailer/contact_form"}
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.8ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:15:47 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hKhFvTBjAXqxS/dAhnEWvqEP9P8looTq8ugu6Pp+Vqka2p2Sdb+4SH6wFve2SVva6cs5/eF+aJ5THGfYph2PXA==", "name"=>"rm", "email"=>"rm", "message"=>"rm", "commit"=>"Send"}
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.5ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:16:27 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hKhFvTBjAXqxS/dAhnEWvqEP9P8looTq8ugu6Pp+Vqka2p2Sdb+4SH6wFve2SVva6cs5/eF+aJ5THGfYph2PXA==", "name"=>"rm", "email"=>"rm", "message"=>"rm", "commit"=>"Send"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.7ms)
+Started GET "/" for ::1 at 2017-05-03 14:18:48 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (11.0ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 510ms (Views: 393.8ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-03 14:18:53 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:18:56 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 93ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:19:00 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iY6dKBUzy8Sl88TgNGXOyCBTq+SD/Q/I8Z2/shYotsIX/EUHUO9y9moIJVcEXYOsaJdm5kch47xQafaCSktvNw==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:19:14 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:19:18 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EssvTdQrHltwP4XxUmXRbnKc1I3FnKhgst52/YJ5PmfV+pdUeBS1esf7XjJ67Y0VL6AL3CvitVGd22LUy5wZ0A==", "name"=>"RM", "email"=>"RM", "message"=>"RM", "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:19:26 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 14:23:27 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (127.5ms)
+Completed 200 OK in 612ms (Views: 566.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:23:31 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 79ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:24:21 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (68.4ms)
+Completed 200 OK in 284ms (Views: 279.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:24:28 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKwlkPGdAOtmoI6CPxDaXy5ZBD7wf5M9kG+5c1J8KHKLnZ2JXaKrytFkVUEXmIYkc2Xbbx4Bjgy/aq1aG5kPxQ==", "name"=>"heyy", "email"=>"hy", "message"=>"lkajd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.6ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:30:00 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKwlkPGdAOtmoI6CPxDaXy5ZBD7wf5M9kG+5c1J8KHKLnZ2JXaKrytFkVUEXmIYkc2Xbbx4Bjgy/aq1aG5kPxQ==", "name"=>"heyy", "email"=>"hy", "message"=>"lkajd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ form message from your name")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.2ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:30:39 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKwlkPGdAOtmoI6CPxDaXy5ZBD7wf5M9kG+5c1J8KHKLnZ2JXaKrytFkVUEXmIYkc2Xbbx4Bjgy/aq1aG5kPxQ==", "name"=>"heyy", "email"=>"hy", "message"=>"lkajd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => 'A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}')
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.7ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:36:22 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKwlkPGdAOtmoI6CPxDaXy5ZBD7wf5M9kG+5c1J8KHKLnZ2JXaKrytFkVUEXmIYkc2Xbbx4Bjgy/aq1aG5kPxQ==", "name"=>"heyy", "email"=>"hy", "message"=>"lkajd", "commit"=>"Send"}
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+				:subject => "A new contact form
+				 ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+ct form message from #{name}")
+                              ^):
+  
+app/mailers/user_mailer.rb:8: syntax error, unexpected tSYMBEG, expecting ')'
+app/mailers/user_mailer.rb:8: syntax error, unexpected ')', expecting keyword_end
+app/controllers/static_pages_controller.rb:17:in `thank_you'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (19.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.3ms)
+Started POST "/__web_console/repl_sessions/51fa254611f047e47a8114734e35d918/trace" for ::1 at 2017-05-03 14:37:08 -0400
+Started POST "/__web_console/repl_sessions/51fa254611f047e47a8114734e35d918/trace" for ::1 at 2017-05-03 14:37:10 -0400
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 14:38:05 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKwlkPGdAOtmoI6CPxDaXy5ZBD7wf5M9kG+5c1J8KHKLnZ2JXaKrytFkVUEXmIYkc2Xbbx4Bjgy/aq1aG5kPxQ==", "name"=>"heyy", "email"=>"hy", "message"=>"lkajd", "commit"=>"Send"}
+  Rendering user_mailer/contact_form.html.erb within layouts/mailer
+  Rendered user_mailer/contact_form.html.erb within layouts/mailer (0.7ms)
+UserMailer#contact_form: processed outbound mail in 69.0ms
+Sent mail to your-email@example.com (6.0ms)
+Date: Wed, 03 May 2017 14:38:06 -0400
+From: hy
+To: your-email@example.com
+Message-ID: <590a238e4b69b_f3c13ff14eee6324360e2@rebeccaomputer2.wowway.com.mail>
+Subject: A new contact form message from heyy
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <table>
+  <tbody>
+    <tr>
+      <td><p>You have received a new contact form message. The contents of the message are:</p></td>
+    </tr>
+    <tr>
+      <td><p>lkajd</p></td>
+    </tr>
+  </tbody>
+</table>
+  </body>
+</html>
+
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 552ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 14:39:48 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 14:39:51 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 101ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
