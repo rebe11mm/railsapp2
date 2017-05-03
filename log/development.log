@@ -9934,3 +9934,310 @@ Processing by ProductsController#edit as HTML
 Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/static_pages/index" for ::1 at 2017-05-03 08:22:02 -0400
+Started GET "/static_pages/index" for ::1 at 2017-05-03 08:22:02 -0400
+Processing by StaticPagesController#index as HTML
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1949.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (1909.1ms)
+Completed 200 OK in 3842ms (Views: 3463.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3678ms (Views: 3359.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 08:22:07 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 141ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 08:22:10 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (180.4ms)
+Completed 200 OK in 215ms (Views: 211.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 08:22:31 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/static_pages/thank_you"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (132.7ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [17 times] (399.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (100.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (62.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1098.6ms)
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 08:41:14 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nf9OgPRcJ4LfssoJNTr3eGCP+NinCqD9NSGmgfis4C6rjZavsYCesBBJK74FArocKEs12mPWTImU1e+xpM852w==", "name"=>"Rebecca", "email"=>"rebeccam.mcmurray@gmail.com", "message"=>"skiing\r\n", "commit"=>"Send"}
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 369ms (Views: 304.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 08:41:19 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 77ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-05-03 08:41:21 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 111ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-05-03 08:41:23 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (13.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (70.3ms)
+  Rendered products/_product.html.erb (15.8ms)
+  Rendered products/_product.html.erb (22.0ms)
+  Rendered products/_product.html.erb (52.8ms)
+  Rendered products/index.html.erb within layouts/application (272.4ms)
+Completed 200 OK in 491ms (Views: 348.5ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 08:41:28 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 43ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 08:41:36 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+BQbor+PeIQd9OiJkchrfDyG4C+sitJLOc7HAAqXO6RmZsON+lPBttIPCT6h8CYYdEItLWhWPj+YOo4wVvTiUQ==", "name"=>"", "email"=>"", "message"=>"", "commit"=>"Send"}
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 74ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/thank_you" for ::1 at 2017-05-03 09:40:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (35.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (177.9ms)
+Started GET "/static_pages/thank_you" for ::1 at 2017-05-03 09:41:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (65.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (67.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (237.3ms)
+Started GET "/" for ::1 at 2017-05-03 09:41:08 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (16.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (363.3ms)
+Completed 200 OK in 808ms (Views: 683.9ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 09:41:12 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 223ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 09:41:17 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bKCCwoWvjwBO/TkQrCrc5DU8uG4UALDUweg6tSYcLDzy0lrtwHM2MoEG2KecEpGAffh1bNDcXKBgHHOFen/1yQ==", "name"=>"RM", "email"=>"RM", "message"=>"rM", "commit"=>"Send"}
+ActionMailer::Base#mail: processed outbound mail in 1045.9ms
+Sent mail to rebeccam.mcmurray@gmail.com (244.2ms)
+Date: Wed, 03 May 2017 09:41:21 -0400
+From: RM
+To: rebeccam.mcmurray@gmail.com
+Message-ID: <5909de019685_f3c13ff14eee616c358d@rebeccaomputer2.wowway.com.mail>
+Subject: A new contact form message from RM
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+rM
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3653ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/thank_you" for ::1 at 2017-05-03 09:55:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (9.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (139.0ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 09:55:48 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 257ms (Views: 253.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-03 09:55:50 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 81ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-03 09:55:51 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 65ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for ::1 at 2017-05-03 09:56:01 -0400
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x/wiv55SUsKU8Wl4VqMqtT+kXNLPa7uGV9W/kwPZQU5ZjvqQ247r8FsKiM9mm2fRd2CR0Au3V/L2IfajX7qYuw==", "name"=>"Did this work", "email"=>"RM", "message"=>"Did this work", "commit"=>"Send"}
+ActionMailer::Base#mail: processed outbound mail in 1.2ms
+Sent mail to rebeccam.mcmurray@gmail.com (3.7ms)
+Date: Wed, 03 May 2017 09:56:01 -0400
+From: RM
+To: rebeccam.mcmurray@gmail.com
+Message-ID: <5909e17193b9b_f3c13ff14eee64143599c@rebeccaomputer2.wowway.com.mail>
+Subject: A new contact form message from Did this work
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Did this work
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
