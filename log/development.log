@@ -10965,3 +10965,184 @@ Processing by StaticPagesController#index as HTML
 Completed 200 OK in 101ms (Views: 60.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static_pages/index" for ::1 at 2017-05-07 13:23:21 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (305.9ms)
+Completed 200 OK in 605ms (Views: 571.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:23:23 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting =>
+ass: "form-control", required, placeholder: "Enter Name" );@
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting =>
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.6ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:25:34 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+ss: "form-control" placeholder: "Enter Name", :required => t
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+ol" placeholder: "Enter Name", :required => true );@output_b
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.4ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:25:39 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+ss: "form-control" placeholder: "Enter Name", :required => t
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+ol" placeholder: "Enter Name", :required => true );@output_b
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.8ms)
+Started GET "/" for ::1 at 2017-05-07 13:25:45 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (279.1ms)
+Completed 200 OK in 773ms (Views: 543.5ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:25:58 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+ss: "form-control" placeholder: "Enter Name", :required => t
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+ol" placeholder: "Enter Name", :required => true );@output_b
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.5ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:26:16 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+ss: "form-control" placeholder: "Enter Name" );@output_buffe
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:26:34 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+ss: "form-control" placeholder: "Enter Name" );@output_buffe
+                              ^):
+  
+app/views/static_pages/contact.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.6ms)
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:27:02 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (69.6ms)
+Completed 200 OK in 145ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:27:15 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-05-07 13:27:52 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-05-07 13:28:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 107ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
