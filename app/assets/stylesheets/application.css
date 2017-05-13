@@ -61,10 +61,7 @@ input:hover {
 input#q {
 	background-color: white;
 	border-radius: 5px;
-
 }
-
-
 
 footer {
 	font-family: Tahoma, Geneva, sans-serif;
@@ -93,3 +90,15 @@ h2, h3 {
 	color: #444d6b;
 	text-align: center;
 }
+
+.alert-info {
+	border-color: #85144b;
+	background-color: #fcebf3;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 16pt;
+}
+
+#notice {
+	color: #444d6b;
+}
+
