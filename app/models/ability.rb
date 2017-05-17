@@ -10,6 +10,9 @@ class Ability
     #   else
     #     can :read, :all
     #   end
+
+    user ||= User.new # guest user (not logged in)
+    can :manage, User, id: user.id
     #
     # The first argument to `can` is the action you are giving the user
     # permission to do.
