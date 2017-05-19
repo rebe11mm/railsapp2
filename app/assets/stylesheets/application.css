@@ -14,7 +14,7 @@
  *= require_self
  */
 
-li, a, .searchbar {
+li, a, em, span, .searchbar {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #6b6244;
 	text-align: center;
