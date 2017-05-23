@@ -17562,3 +17562,688 @@ Processing by ProductsController#show as HTML
 Completed 200 OK in 243ms (Views: 213.4ms | ActiveRecord: 2.1ms)
 
 
+Started GET "/products/28" for ::1 at 2017-05-23 12:35:57 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (33.1ms)
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.1ms)
+  Rendered products/show.html.erb within layouts/application (119.9ms)
+Completed 200 OK in 911ms (Views: 828.5ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:39:29 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/payments/create"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [49 times] (85.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (38.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (238.2ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 12:41:13 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tl3mrZiB5zBMLXKF3KFheIlzE1jVPQquqpVYWNYZercKZJXaBrrZWfo8u7No0wDZBo+Gmb/5IuXRaxFtRKFvHA==", "product_id"=>"28", "stripeToken"=>"tok_1AMg4IAfkERa0LuQdr9iwjzb", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/products/28
+Completed 302 Found in 1176ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 12:41:15 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (12.5ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.0ms)
+  Rendered products/show.html.erb within layouts/application (86.7ms)
+Completed 200 OK in 754ms (Views: 706.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 12:42:06 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.0ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.7ms)
+  Rendered products/show.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 83ms (Views: 72.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:42:27 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V9f968gpODdZ4W9BnMiAS0n3IbeBwXscpdONC2StDZvr7o6cVhIGXu/wpncouuHqxgu0dusFU1feLcQ+9hUYMA==", "product_id"=>"28", "stripeToken"=>"tok_1AMg5UAfkERa0LuQO5SIO8Lv", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/products/28
+Completed 302 Found in 754ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 12:42:27 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.8ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.3ms)
+  Rendered products/show.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 87ms (Views: 79.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 12:43:34 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (29.2ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.8ms)
+  Rendered products/show.html.erb within layouts/application (142.1ms)
+Completed 200 OK in 493ms (Views: 406.8ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:43:56 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jhvRxjHyNA/xLvG3k6bTGq5RZqis/T4YGV0Kh7/h+DIyIqKxr8kKZkc/OIEn1LK7Ia3zacY5FlNio0OyLVntmQ==", "product_id"=>"28", "stripeToken"=>"tok_1AMg6vAfkERa0LuQv2DQFSFi", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/products/28
+Completed 302 Found in 656ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 12:43:56 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.6ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.3ms)
+  Rendered products/show.html.erb within layouts/application (74.7ms)
+Completed 200 OK in 929ms (Views: 895.1ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/logout" for ::1 at 2017-05-23 12:48:33 -0400
+Processing by Devise::SessionsController#destroy as HTML
+Started DELETE "/logout" for ::1 at 2017-05-23 12:48:33 -0400
+  Parameters: {"authenticity_token"=>"VFEotiISc9UV87cCNyrH25qeKPdhEE//fZeFXX0YVDXoaFvBvClNvKPifjSDWKZ6FWK9NgvUZ7QGacxo76BBng=="}
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Parameters: {"authenticity_token"=>"VFEotiISc9UV87cCNyrH25qeKPdhEE//fZeFXX0YVDXoaFvBvClNvKPifjSDWKZ6FWK9NgvUZ7QGacxo76BBng=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 0.4ms)
+
+
+Completed 302 Found in 26ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-05-23 12:48:33 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 104ms (Views: 81.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for ::1 at 2017-05-23 12:51:10 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (14.0ms)
+  Rendered products/_product.html.erb (1.9ms)
+  Rendered products/_product.html.erb (5.3ms)
+  Rendered products/_product.html.erb (2.6ms)
+  Rendered products/index.html.erb within layouts/application (343.1ms)
+Completed 200 OK in 549ms (Views: 522.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 12:51:13 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.9ms)
+  Rendered products/_new_comment.html.erb (1.2ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (28.4ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (80.9ms)
+Completed 200 OK in 175ms (Views: 127.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:51:31 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HddKUkZ08IHQ8V7OKZh7lB3fq6QTRDo+/g7oAHcOvmJYIWlYUV5lagP+M0g/Hf7cYhMe1P512qPUpwj71MO20Q==", "product_id"=>"27", "stripeToken"=>"tok_1AMgEHAfkERa0LuQZqsaqwNQ", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 816ms (ActiveRecord: 0.3ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/payments_controller.rb:22:in `format'
+app/controllers/payments_controller.rb:22:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.9ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 12:51:45 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HddKUkZ08IHQ8V7OKZh7lB3fq6QTRDo+/g7oAHcOvmJYIWlYUV5lagP+M0g/Hf7cYhMe1P512qPUpwj71MO20Q==", "product_id"=>"27", "stripeToken"=>"tok_1AMgEHAfkERa0LuQZqsaqwNQ", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 413ms (ActiveRecord: 0.9ms)
+
+
+  
+Stripe::InvalidRequestError (You cannot use a Stripe token more than once: tok_1AMgEHAfkERa0LuQZqsaqwNQ.):
+  
+app/controllers/payments_controller.rb:9:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.9ms)
+Started GET "/products/27" for ::1 at 2017-05-23 12:51:59 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.5ms)
+  Rendered products/_new_comment.html.erb (2.0ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (43.4ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (165.3ms)
+Completed 200 OK in 953ms (Views: 870.6ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:52:17 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oDHdZotDSLMbJKHnGjFccyF9ZZyZ0bUk+V/zNi9XUKzlx/5snGndWMgrzGEMtNk7XrHQ7HTgVbnT9hPNjJpYHw==", "product_id"=>"27", "stripeToken"=>"tok_1AMgF0AfkERa0LuQl4nsOXNk", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Redirected to http://localhost:3000/products/27
+Completed 302 Found in 797ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 12:52:18 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  Rendered products/_new_comment.html.erb (0.9ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (10.0ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 114ms (Views: 107.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 12:56:42 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  Rendered products/_new_comment.html.erb (0.9ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (25.8ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 123ms (Views: 88.8ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:57:02 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o7/DvcrzpKjCzyVRxvEnE2U9DjM/xyZ/SO3iZkiSvnTmSeC33dkxQxHASNfQdKJbGvG7Q9L2xuJiRAKd61+2xw==", "product_id"=>"27", "stripeToken"=>"tok_1AMgJbAfkERa0LuQ4KqoEp3c", "stripeTokenType"=>"card", "stripeEmail"=>"re@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (21.2ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (64.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/27
+Completed 302 Found in 896ms (ActiveRecord: 86.3ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 12:57:03 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  Rendered products/_new_comment.html.erb (1.2ms)
+  [1m[36mComment Load (1.4ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (14.2ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 119ms (Views: 110.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 12:59:30 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.5ms)
+  Rendered products/_new_comment.html.erb (0.8ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (32.7ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 119ms (Views: 91.9ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 12:59:49 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wT++L9d/IHGNSqAdlkdj3+Er+YhEDoGAmx7GhVgEe/uEyZ0lwFW1ml5FzZuAwuaXnudM+Kk/YR2xtyZ++8lzSA==", "product_id"=>"27", "stripeToken"=>"tok_1AMgMJAfkERa0LuQeKlercj8", "stripeTokenType"=>"card", "stripeEmail"=>"rm1m3@rm.com"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 1203ms (ActiveRecord: 5.8ms)
+
+
+  
+NoMethodError (undefined method `payment_confirmation' for UserMailer:Class):
+  
+app/controllers/payments_controller.rb:17:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.4ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 13:00:01 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wT++L9d/IHGNSqAdlkdj3+Er+YhEDoGAmx7GhVgEe/uEyZ0lwFW1ml5FzZuAwuaXnudM+Kk/YR2xtyZ++8lzSA==", "product_id"=>"27", "stripeToken"=>"tok_1AMgMJAfkERa0LuQeKlercj8", "stripeTokenType"=>"card", "stripeEmail"=>"rm1m3@rm.com"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 447ms (ActiveRecord: 1.4ms)
+
+
+  
+Stripe::InvalidRequestError (You cannot use a Stripe token more than once: tok_1AMgMJAfkERa0LuQeKlercj8.):
+  
+app/controllers/payments_controller.rb:9:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.3ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 13:00:22 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wT++L9d/IHGNSqAdlkdj3+Er+YhEDoGAmx7GhVgEe/uEyZ0lwFW1ml5FzZuAwuaXnudM+Kk/YR2xtyZ++8lzSA==", "product_id"=>"27", "stripeToken"=>"tok_1AMgMqAfkERa0LuQwNTgUCVs", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/27
+Completed 302 Found in 875ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 13:00:23 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.9ms)
+  Rendered products/_new_comment.html.erb (1.1ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (29.7ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (106.4ms)
+Completed 200 OK in 432ms (Views: 383.9ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 13:22:15 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1MK3NNQ5+W8uLkxEF/bPZ8NPOvRD0SSAOETP2zjr+biRNJQ+wxNshP0hIcIBc0ovvIOPhK7gxB0S7S8gmybxCw==", "product_id"=>"27", "stripeToken"=>"tok_1AMgi1AfkERa0LuQVYbsMxfw", "stripeTokenType"=>"card", "stripeEmail"=>"rm@rm.com"}
+  [1m[36mProduct Load (17.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (21.7ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/27
+Completed 302 Found in 859ms (ActiveRecord: 44.4ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 13:22:17 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  Rendered products/_new_comment.html.erb (1.6ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (41.3ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (172.8ms)
+Completed 200 OK in 1031ms (Views: 961.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-23 13:24:48 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.5ms)
+  Rendered products/_new_comment.html.erb (0.9ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered products/_comments.html.erb (28.5ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 2889ms (Views: 2860.0ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 13:25:10 -0400
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:25: syntax error, unexpected keyword_rescue, expecting keyword_end
+		rescue Stripe::CardError => e
+		      ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:25: syntax error, unexpected =>
+		rescue Stripe::CardError => e
+		                           ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:32: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/payments_controller.rb:25: syntax error, unexpected keyword_rescue, expecting keyword_end
+app/controllers/payments_controller.rb:25: syntax error, unexpected =>
+app/controllers/payments_controller.rb:32: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.3ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 13:27:11 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uv88t4gd6vlZhpzw17fgvMV3V+4pujISHbK2DEAJPxsXCR+9nzd/EoqJ8XbBMmX0urvinsSL0o83G1b348Q3qA==", "product_id"=>"27", "stripeToken"=>"tok_1AMgkpAfkERa0LuQxrhCu6rO", "stripeTokenType"=>"card", "stripeEmail"=>"re@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (19.1ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 859ms (ActiveRecord: 22.7ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/payments_controller.rb:19:in `format'
+app/controllers/payments_controller.rb:19:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.4ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.3ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 13:28:42 -0400
+  
+SyntaxError (/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:19: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+    { redirect_to product_path(@product), notice: "Payment w
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:19: syntax error, unexpected ',', expecting keyword_end
+ect_to product_path(@product), notice: "Payment was processe
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:19: syntax error, unexpected '}', expecting keyword_end
+t was processed successfully"}
+                              ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:22: syntax error, unexpected =>
+		rescue Stripe::CardError => e
+		                           ^
+/Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/controllers/payments_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/payments_controller.rb:19: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/controllers/payments_controller.rb:19: syntax error, unexpected ',', expecting keyword_end
+app/controllers/payments_controller.rb:19: syntax error, unexpected '}', expecting keyword_end
+app/controllers/payments_controller.rb:22: syntax error, unexpected =>
+app/controllers/payments_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.1ms)
+Started POST "/payments/create" for ::1 at 2017-05-23 13:28:54 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uv88t4gd6vlZhpzw17fgvMV3V+4pujISHbK2DEAJPxsXCR+9nzd/EoqJ8XbBMmX0urvinsSL0o83G1b348Q3qA==", "product_id"=>"27", "stripeToken"=>"tok_1AMgkpAfkERa0LuQxrhCu6rO", "stripeTokenType"=>"card", "stripeEmail"=>"re@rm.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 485ms (ActiveRecord: 1.1ms)
+
+
+  
+Stripe::InvalidRequestError (You cannot use a Stripe token more than once: tok_1AMgkpAfkERa0LuQxrhCu6rO.):
+  
+app/controllers/payments_controller.rb:9:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.7ms)
+Started GET "/payments" for ::1 at 2017-05-23 13:29:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/payments"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [50 times] (16.5ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.3ms)
+Started GET "/" for ::1 at 2017-05-23 13:29:14 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (90.9ms)
+Completed 200 OK in 844ms (Views: 823.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2017-05-23 13:29:17 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/_product.html.erb (3.5ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/_product.html.erb (1.2ms)
+  Rendered products/_product.html.erb (1.3ms)
+  Rendered products/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 131ms (Views: 89.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 13:29:20 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.9ms)
+  Rendered products/_new_comment.html.erb (1.1ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.0ms)
+  Rendered products/show.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 157ms (Views: 100.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/payments/create" for ::1 at 2017-05-23 13:29:39 -0400
+Processing by PaymentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hSBOEmnz52a7P7cQ9OxYAfpNVESSKXURk130hy61b8nA1m0YftlyjWgw2pbiad1JhYHhNH8YlYy59BR8jXhneg==", "product_id"=>"28", "stripeToken"=>"tok_1AMgpAAfkERa0LuQ7YR3wZsT", "stripeTokenType"=>"card", "stripeEmail"=>"rm@mt.com"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (16.4ms)[0m  [1m[32mINSERT INTO "orders" DEFAULT VALUES[0m
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/products/28
+Completed 302 Found in 780ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/products/28" for ::1 at 2017-05-23 13:29:40 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  Rendered products/_new_comment.html.erb (0.6ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.4ms)
+  Rendered products/show.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 89ms (Views: 79.7ms | ActiveRecord: 0.9ms)
+
+
