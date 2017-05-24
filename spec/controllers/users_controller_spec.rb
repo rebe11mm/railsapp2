@@ -6,7 +6,7 @@ describe UsersController, type: :controller do
 	#let(:different_user) {User.create!(email: "testeranne@test.com", password: "testeranne")}
 	before do
 		@user = FactoryGirl.create(:user)
-		@different_user = FactoryGirl.create(:user, email: "testeranne@test.com")
+		@different_user = FactoryGirl.create(:user)
 	end
 
 
