@@ -19435,3 +19435,65 @@ Processing by StaticPagesController#index as HTML
 Completed 200 OK in 98ms (Views: 77.1ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/static_pages/index" for ::1 at 2017-05-30 14:20:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2032.8ms)
+  [1m[36mUser Load (29.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 2816ms (Views: 2666.8ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/products" for ::1 at 2017-05-30 14:20:14 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (10.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/4cd4799855722d43c2ab01c63c3695d1 (0.1ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Write fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+  Rendered products/_product.html.erb (42.4ms)
+Read fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+  Rendered products/_product.html.erb (1.5ms)
+Read fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+  Rendered products/_product.html.erb (1.8ms)
+Read fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+  Rendered products/_product.html.erb (1.9ms)
+Write fragment views/products/all-4-20170523155712/4cd4799855722d43c2ab01c63c3695d1 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (111.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 200ms (Views: 150.1ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-30 14:20:18 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde18221 (0.1ms)
+Write fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde18221 (0.1ms)
+  [1m[35m (14.8ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (74.3ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (134.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered products/_comments.html.erb (151.7ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (370.0ms)
+Completed 200 OK in 490ms (Views: 394.9ms | ActiveRecord: 16.6ms)
+
+
