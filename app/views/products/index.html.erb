@@ -11,8 +11,10 @@
   <h1>Our Bikes</h1>
   <div class="container">
     <div class="row">
-      <% @products.each do |product| %>
-        <%= render product %>
+    	<% cache(cache_key_for_products) do %>
+      	<% @products.each do |product| %>
+        	<%= render product %>
+      	<% end %>
       <% end %>
     </div><!--end row-->
   </div><!--end container-->
