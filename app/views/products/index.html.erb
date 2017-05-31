@@ -12,9 +12,7 @@
   <div class="container">
     <div class="row">
     	<% cache(cache_key_for_products) do %>
-      	<% @products.each do |product| %>
         	<%= render product %>
-      	<% end %>
       <% end %>
     </div><!--end row-->
   </div><!--end container-->
