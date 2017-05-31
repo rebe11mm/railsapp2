@@ -19562,3 +19562,107 @@ Read fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde
 Completed 200 OK in 167ms (Views: 125.2ms | ActiveRecord: 14.7ms)
 
 
+Started GET "/products/27" for ::1 at 2017-05-31 08:03:19 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde18221 (0.3ms)
+  [1m[35m (21.8ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (7.8ms)
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered products/_comments.html.erb (18.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (157.9ms)
+Completed 200 OK in 1007ms (Views: 898.6ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/products" for ::1 at 2017-05-31 08:03:31 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/959708acd213d7e5873a372673b7fc9b (0.3ms)
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (1091.2ms)
+Completed 500 Internal Server Error in 1130ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `product' for #<#<Class:0x007fc65a082eb0>:0x007fc657adc738>
+Did you mean?  @products):
+    12:   <div class="container">
+    13:     <div class="row">
+    14:     	<% cache(cache_key_for_products) do %>
+    15:         	<%= render product %>
+    16:       <% end %>
+    17:     </div><!--end row-->
+    18:   </div><!--end container-->
+  
+app/views/products/index.html.erb:15:in `block in _app_views_products_index_html_erb__1155114048279327703_70244932595880'
+app/views/products/index.html.erb:14:in `_app_views_products_index_html_erb__1155114048279327703_70244932595880'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.9ms)
+Started GET "/products" for ::1 at 2017-05-31 08:05:59 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Read fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+  Rendered collection of products/_product.html.erb [4 times] (3.7ms)
+Write fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (143.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 633ms (Views: 630.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products/27" for ::1 at 2017-05-31 08:06:03 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde18221 (0.1ms)
+  [1m[35m (15.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.8ms)
+  [1m[36mComment Load (0.7ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  Rendered products/_comments.html.erb (26.9ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (136.6ms)
+Completed 200 OK in 213ms (Views: 162.8ms | ActiveRecord: 17.0ms)
+
+
