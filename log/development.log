@@ -19813,3 +19813,234 @@ Read fragment views/products/27-20170523155712505286/0c38da6379bcddd5ca6d7842dde
 Completed 200 OK in 1706ms (Views: 1601.6ms | ActiveRecord: 10.3ms)
 
 
+Started GET "/products/27" for ::1 at 2017-06-07 09:58:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (20.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 21.0ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.2ms)
+Started GET "/" for ::1 at 2017-06-07 09:58:11 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (1363.0ms)
+  [1m[36mUser Load (12.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1687ms (Views: 1652.9ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-07 09:58:14 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 09:58:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-07 09:58:17 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (17.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 125ms (Views: 121.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-07 09:58:18 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 09:58:18 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-07 09:58:36 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/products" for ::1 at 2017-06-07 09:58:45 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.2ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Write fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Read fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+  Rendered collection of products/_product.html.erb [4 times] (41.9ms)
+Write fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (160.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 460ms (Views: 407.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products/27" for ::1 at 2017-06-07 09:58:47 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (33.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 33.3ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+Started GET "/cable" for ::1 at 2017-06-07 10:02:12 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 10:02:12 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/products/28" for ::1 at 2017-06-07 10:02:16 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.2ms)
+Started GET "/products/28" for ::1 at 2017-06-07 10:07:08 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.3ms)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-07 10:07:09 -0400
+ProductChannel stopped streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-07 10:07:09 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/products/28" for ::1 at 2017-06-07 10:07:11 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.3ms)
+Started GET "/products/28" for ::1 at 2017-06-07 10:10:13 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/28-20170421193730022397/a7315a4a1bb98cbf12f3da0136cd3337 (0.1ms)
+Write fragment views/products/28-20170421193730022397/a7315a4a1bb98cbf12f3da0136cd3337 (0.1ms)
+  [1m[35m (15.5ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (675.7ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.5ms)
+  Rendered products/show.html.erb within layouts/application (835.8ms)
+Completed 200 OK in 1629ms (Views: 1491.2ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-07 10:10:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 10:10:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/products/28" for ::1 at 2017-06-07 10:10:42 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/28-20170421193730022397/a7315a4a1bb98cbf12f3da0136cd3337 (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.5ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.4ms)
+  Rendered products/show.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 381ms (Views: 361.6ms | ActiveRecord: 0.6ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-07 10:10:43 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-07 10:10:43 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 10:10:43 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-07 10:11:01 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-07 10:11:01 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started POST "/products/28/comments" for ::1 at 2017-06-07 10:11:12 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"new comment", "rating"=>"4"}, "commit"=>"submit", "product_id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (15.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (18.9ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "new comment"], ["rating", 4], ["product_id", 28], ["created_at", 2017-06-07 14:11:12 UTC], ["updated_at", 2017-06-07 14:11:12 UTC]]
+  [1m[35m (59.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+[ActionCable] Broadcasting to product_channel: {:comment=>#<Comment id: 17, user_id: 3, body: "new comment", rating: 4, product_id: 28, created_at: "2017-06-07 14:11:12", updated_at: "2017-06-07 14:11:12">, :average_rating=>4.0}
+ProductChannel transmitting {"comment"=>{"id"=>17, "user_id"=>3, "body"=>"new comment", "rating"=>4, "product_id"=>28, "created_at"=>"2017-06-07T14:11:12.688Z", "updated_at"=>"2017-06-07T14:11:12.688Z"}, "average_rating"=>4.0} (via streamed from product_channel)
+ProductChannel transmitting {"comment"=>{"id"=>17, "user_id"=>3, "body"=>"new comment", "rating"=>4, "product_id"=>28, "created_at"=>"2017-06-07T14:11:12.688Z", "updated_at"=>"2017-06-07T14:11:12.688Z"}, "average_rating"=>4.0} (via streamed from product_channel)
+  Rendering comments/create.js.erb
+  Rendered comments/_comment.html.erb (125.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered comments/create.js.erb (131.8ms)
+Completed 200 OK in 302ms (Views: 147.1ms | ActiveRecord: 94.4ms)
+
+
