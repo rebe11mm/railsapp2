@@ -20044,3 +20044,1482 @@ ProductChannel transmitting {"comment"=>{"id"=>17, "user_id"=>3, "body"=>"new co
 Completed 200 OK in 302ms (Views: 147.1ms | ActiveRecord: 94.4ms)
 
 
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-07 10:25:36 -0400
+ProductChannel stopped streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:35:13 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 21:38:51 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:41:13 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:42:02 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:48:48 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:49:09 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:49:23 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:49:22 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:50:11 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:50:22 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:50:31 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:50:35 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:50:42 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:50:54 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:51:09 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:51:11 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:51:30 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:51:32 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2017-06-11 21:52:03 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:52:03 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:52:49 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:52:52 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:53:18 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:54:21 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:54:27 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:54:27 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:54:33 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:54:33 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:12 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:17 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2017-06-11 21:55:18 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:24 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:55:35 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:37 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:40 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:55:44 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:55:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:56:21 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 21:56:21 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:56:23 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:56:56 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 21:57:02 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:57:04 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:57:11 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:57:11 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:57:14 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:57:59 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:58:04 -0400
+Started GET "/cable" for ::1 at 2017-06-11 21:58:05 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:58:48 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 21:58:48 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 21:59:34 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:00:05 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:00:18 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:00:47 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:00:53 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:00:59 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:01:04 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:01:08 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:01:08 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:01:08 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:01:36 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 22:01:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:02:08 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:02:34 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:02:43 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:02 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:23 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:03:33 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:03:41 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:42 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:44 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:44 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:45 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:03:45 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:03:46 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:09:50 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 22:10:02 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:10:02 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:10:04 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:05 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:05 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:05 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:15 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:15 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:14 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:10:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:22 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:28 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:10:37 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:10:41 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:41 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:41 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:42 -0400
+ProductChannel is streaming from product_channel
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:57 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 22:10:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:10:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:10 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 22:13:13 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:13:13 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:17 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:20 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:13:20 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:13:20 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:18:17 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-11 22:18:53 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:19:12 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:19:13 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:19:17 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:19:19 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:19:20 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:19:20 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:19:21 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:33 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:20:33 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:40 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:20:40 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:43 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:44 -0400
+Started GET "/cable" for ::1 at 2017-06-11 22:20:45 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-11 22:20:47 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:00:24 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-12 05:00:53 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:00:54 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:12 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:13 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:15 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:37 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:37 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:37 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:38 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:38 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:40 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:49 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:55 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:55 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:56 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:56 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:57 -0400
+Started GET "/cable" for ::1 at 2017-06-12 05:01:57 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:57 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:57 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:01:58 -0400
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:07:50 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-12 05:07:54 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:07:54 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:10:15 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-12 05:10:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:10:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:36:38 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-12 05:36:57 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-12 05:36:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-12 05:37:55 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:33:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:33:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-19 08:34:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (19.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2369.6ms)
+  [1m[36mUser Load (23.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 5144ms (Views: 4904.7ms | ActiveRecord: 44.1ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 08:34:49 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:34:53 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (38.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-19 08:35:40 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (33.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (105.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1212ms (Views: 1170.1ms | ActiveRecord: 33.6ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:35:41 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:35:41 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:35:41 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-19 08:36:45 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (22.9ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (121.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1390ms (Views: 1358.9ms | ActiveRecord: 23.2ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:36:47 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:36:47 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:36:47 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-19 08:37:52 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (39.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (91.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 5021ms (Views: 4952.5ms | ActiveRecord: 39.6ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:37:58 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:37:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:37:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/products" for ::1 at 2017-06-19 08:38:34 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (15.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.2ms)
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Write fragment views/products/27-20170523155712505286/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+Read fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/28-20170421193730022397/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/29-20170421193730026594/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Read fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.0ms)
+Write fragment views/products/30-20170421193730029502/969c07629c4260ce2410b23bf8ea8b25 (0.1ms)
+  Rendered collection of products/_product.html.erb [4 times] (190.6ms)
+Write fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1877.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 3427ms (Views: 3001.4ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/products/27" for ::1 at 2017-06-19 08:38:44 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.8ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.1ms)
+Started GET "/products/27" for ::1 at 2017-06-19 08:39:44 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/a7315a4a1bb98cbf12f3da0136cd3337 (0.1ms)
+Write fragment views/products/27-20170523155712505286/a7315a4a1bb98cbf12f3da0136cd3337 (0.1ms)
+  [1m[35m (24.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (545.0ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (125.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  Rendered products/_comments.html.erb (149.3ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (850.4ms)
+Completed 200 OK in 965ms (Views: 881.4ms | ActiveRecord: 25.7ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:45 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:39:45 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started DELETE "/logout" for ::1 at 2017-06-19 08:39:54 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x+lHptYTUh1R+S2ioNPSicCZvfKE9l/xvOcr8w/u6zc+hpM/iUMr37DGhjys1vLNkxEeus5XpfrI2j8ZU+ZEmw=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-06-19 08:39:54 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 100ms (Views: 86.0ms | ActiveRecord: 0.2ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:54 -0400
+ProductChannel stopped streaming from product_channel
+Started GET "/cable" for ::1 at 2017-06-19 08:39:54 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:54 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:54 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:39:54 -0400
+Started GET "/static_pages/index" for ::1 at 2017-06-19 08:39:57 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 139ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-06-19 08:40:00 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 139ms (Views: 90.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static_pages/index" for ::1 at 2017-06-19 08:40:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (48.4ms)
+Completed 200 OK in 143ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 08:40:04 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:04 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:04 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:04 -0400
+Started GET "/static_pages/about" for ::1 at 2017-06-19 08:40:10 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for ::1 at 2017-06-19 08:40:11 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 67ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2017-06-19 08:40:12 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (21.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (76.8ms)
+Completed 200 OK in 175ms (Views: 145.3ms | ActiveRecord: 21.7ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 08:40:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:16 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:16 -0400
+Started GET "/" for ::1 at 2017-06-19 08:40:20 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 115ms (Views: 82.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 08:40:20 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:20 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:20 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:20 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:40:30 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:30 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:30 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:30 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:40:43 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:43 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:43 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:43 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:40:52 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:52 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:52 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:40:52 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:41:02 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:02 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:02 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:02 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:41:12 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:12 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:12 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:12 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:41:24 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:24 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:24 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:24 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:41:36 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:36 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:36 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:41:49 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:49 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:49 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:41:49 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:42:02 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:02 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:02 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:02 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:42:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:16 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:16 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:42:29 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:29 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:29 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:29 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:42:44 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:44 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:44 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:44 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:42:59 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:59 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:42:59 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:43:14 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:14 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:14 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:14 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:43:29 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:29 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:29 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:29 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:43:44 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:44 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:44 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:44 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:43:59 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:59 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:43:59 -0400
+Started GET "/cable" for ::1 at 2017-06-19 08:44:04 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:44:04 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:44:04 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 08:44:04 -0400
+Started GET "/login" for ::1 at 2017-06-19 08:44:06 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (54.4ms)
+Completed 200 OK in 622ms (Views: 565.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/login" for ::1 at 2017-06-19 08:44:09 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPL0Y+1n/u4SuaarN4K+ZoxF3VKLmntYPkwegwKoEckUVEzZC/SlFSAXFzvH947FCpTyEau3pejdKF5y5FjkDA==", "user"=>{"email"=>"rebecca2@email3.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (26.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "rebecca2@email3.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-06-19 12:44:10 UTC], ["last_sign_in_at", 2017-05-30 13:24:18 UTC], ["sign_in_count", 3], ["updated_at", 2017-06-19 12:44:10 UTC], ["id", 3]]
+  [1m[35m (65.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 393ms (ActiveRecord: 93.0ms)
+
+
+Started GET "/" for ::1 at 2017-06-19 08:44:10 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (32.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 171ms (Views: 116.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 08:44:10 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 08:44:10 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is streaming from product_channel
+Started GET "/" for ::1 at 2017-06-19 09:06:14 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (68.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 2263ms (Views: 2221.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 09:06:17 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:06:17 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products" for ::1 at 2017-06-19 09:06:22 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.2ms)
+  Rendered products/index.html.erb within layouts/application (459.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 987ms (Views: 954.1ms | ActiveRecord: 0.9ms)
+
+
+ProductChannel#listen
+ProductChannel is streaming from product:
+Started GET "/cable" for ::1 at 2017-06-19 09:06:30 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:06:30 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/27" for ::1 at 2017-06-19 09:06:40 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/346ba2a53f24b8f8774fbe99093a0f35 (0.2ms)
+Write fragment views/products/27-20170523155712505286/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (17.4ms)
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (5.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered products/_comments.html.erb (28.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (196.7ms)
+Completed 200 OK in 969ms (Views: 860.3ms | ActiveRecord: 12.0ms)
+
+
+ProductChannel#listen({"product_id"=>27})
+ProductChannel is streaming from product:27
+Started GET "/products/30" for ::1 at 2017-06-19 09:06:45 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/30-20170421193730029502/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+Write fragment views/products/30-20170421193730029502/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+  Rendered shared/_stripe_checkout_button.html.erb (2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (6.5ms)
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 30], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (3.8ms)
+  Rendered products/show.html.erb within layouts/application (116.3ms)
+Completed 200 OK in 346ms (Views: 331.5ms | ActiveRecord: 2.3ms)
+
+
+ProductChannel#listen({"product_id"=>30})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:30
+Started GET "/products" for ::1 at 2017-06-19 09:06:47 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (71.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 149ms (Views: 127.5ms | ActiveRecord: 0.7ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:27
+ProductChannel is streaming from product:
+Started GET "/products/30" for ::1 at 2017-06-19 09:06:50 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mProduct Load (23.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/30-20170421193730029502/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.8ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 30], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (1.3ms)
+  Rendered products/show.html.erb within layouts/application (115.1ms)
+Completed 200 OK in 520ms (Views: 298.2ms | ActiveRecord: 24.2ms)
+
+
+ProductChannel#listen({"product_id"=>30})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:30
+Started POST "/products/30/comments" for ::1 at 2017-06-19 09:07:00 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"test comment for 6.14", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"30"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (48.4ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "test comment for 6.14"], ["rating", 5], ["product_id", 30], ["created_at", 2017-06-19 13:07:00 UTC], ["updated_at", 2017-06-19 13:07:00 UTC]]
+  [1m[35m (102.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+[ActionCable] Broadcasting to product:30: {:comment=>#<Comment id: 18, user_id: 3, body: "test comment for 6.14", rating: 5, product_id: 30, created_at: "2017-06-19 13:07:00", updated_at: "2017-06-19 13:07:00">, :average_rating=>5.0}
+ProductChannel transmitting {"comment"=>{"id"=>18, "user_id"=>3, "body"=>"test comment for 6.14", "rating"=>5, "product_id"=>30, "created_at"=>"2017-06-19T13:07:00.285Z", "updated_at"=>"2017-06-19T13:07:00.285Z"}, "average_rating"=>5.0} (via streamed from product:30)
+ProductChannel transmitting {"comment"=>{"id"=>18, "user_id"=>3, "body"=>"test comment for 6.14", "rating"=>5, "product_id"=>30, "created_at"=>"2017-06-19T13:07:00.285Z", "updated_at"=>"2017-06-19T13:07:00.285Z"}, "average_rating"=>5.0} (via streamed from product:30)
+  Rendering comments/create.js.erb
+  Rendered comments/_comment.html.erb (0.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+  Rendered comments/create.js.erb (6.4ms)
+Completed 200 OK in 294ms (Views: 29.2ms | ActiveRecord: 151.8ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:30
+ProductChannel is streaming from product:
+Started GET "/products/29" for ::1 at 2017-06-19 09:07:24 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (64.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+Write fragment views/products/29-20170421193730026594/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.8ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.2ms)
+  Rendered products/show.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 311ms (Views: 148.4ms | ActiveRecord: 64.8ms)
+
+
+ProductChannel#listen({"product_id"=>29})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:29
+Started GET "/products" for ::1 at 2017-06-19 09:07:29 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (70.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 212ms (Views: 201.4ms | ActiveRecord: 3.2ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:30
+ProductChannel is streaming from product:
+Started GET "/products/30" for ::1 at 2017-06-19 09:07:31 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/30-20170421193730029502/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (10.1ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 30], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (4.1ms)
+  Rendered products/_comments.html.erb (12.3ms)
+  Rendered products/show.html.erb within layouts/application (93.8ms)
+Completed 200 OK in 171ms (Views: 163.2ms | ActiveRecord: 1.6ms)
+
+
+ProductChannel#listen({"product_id"=>30})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:30
+Started POST "/products/30/comments" for ::1 at 2017-06-19 09:07:43 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"test if comment shows up in tandem", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"30"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "test if comment shows up in tandem"], ["rating", 5], ["product_id", 30], ["created_at", 2017-06-19 13:07:43 UTC], ["updated_at", 2017-06-19 13:07:43 UTC]]
+  [1m[35m (33.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+[ActionCable] Broadcasting to product:30: {:comment=>#<Comment id: 19, user_id: 3, body: "test if comment shows up in tandem", rating: 5, product_id: 30, created_at: "2017-06-19 13:07:43", updated_at: "2017-06-19 13:07:43">, :average_rating=>5.0}
+ProductChannel transmitting {"comment"=>{"id"=>19, "user_id"=>3, "body"=>"test if comment shows up in tandem", "rating"=>5, "product_id"=>30, "created_at"=>"2017-06-19T13:07:43.903Z", "updated_at"=>"2017-06-19T13:07:43.903Z"}, "average_rating"=>5.0} (via streamed from product:30)
+  Rendering comments/create.js.erb
+  Rendered comments/_comment.html.erb (0.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 30]]
+  Rendered comments/create.js.erb (7.9ms)
+Completed 200 OK in 94ms (Views: 24.1ms | ActiveRecord: 34.6ms)
+
+
+Started GET "/products" for ::1 at 2017-06-19 09:09:24 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.4ms)
+  Rendered products/index.html.erb within layouts/application (137.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1193ms (Views: 1171.1ms | ActiveRecord: 0.9ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:30
+ProductChannel is streaming from product:
+Started GET "/products/29" for ::1 at 2017-06-19 09:09:28 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/346ba2a53f24b8f8774fbe99093a0f35 (0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (5.2ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  Rendered products/_comments.html.erb (2.0ms)
+  Rendered products/show.html.erb within layouts/application (90.6ms)
+Completed 200 OK in 178ms (Views: 148.1ms | ActiveRecord: 1.0ms)
+
+
+ProductChannel#listen({"product_id"=>29})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:29
+ProductChannel#listen({"product_id"=>29})
+ProductChannel stopped streaming from product:29
+ProductChannel is streaming from product:29
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:09:52 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"new comment testing java console", "rating"=>"4"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "new comment testing java console"], ["rating", 4], ["product_id", 29], ["created_at", 2017-06-19 13:09:52 UTC], ["updated_at", 2017-06-19 13:09:52 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+[ActionCable] Broadcasting to product:29: {:comment=>#<Comment id: 20, user_id: 3, body: "new comment testing java console", rating: 4, product_id: 29, created_at: "2017-06-19 13:09:52", updated_at: "2017-06-19 13:09:52">, :average_rating=>4.0}
+ProductChannel transmitting {"comment"=>{"id"=>20, "user_id"=>3, "body"=>"new comment testing java console", "rating"=>4, "product_id"=>29, "created_at"=>"2017-06-19T13:09:52.740Z", "updated_at"=>"2017-06-19T13:09:52.740Z"}, "average_rating"=>4.0} (via streamed from product:29)
+ProductChannel transmitting {"comment"=>{"id"=>20, "user_id"=>3, "body"=>"new comment testing java console", "rating"=>4, "product_id"=>29, "created_at"=>"2017-06-19T13:09:52.740Z", "updated_at"=>"2017-06-19T13:09:52.740Z"}, "average_rating"=>4.0} (via streamed from product:29)
+  Rendering comments/create.js.erb
+  Rendered comments/_comment.html.erb (1.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered comments/create.js.erb (9.1ms)
+Completed 200 OK in 74ms (Views: 32.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/products" for ::1 at 2017-06-19 09:21:41 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (296.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1611ms (Views: 1483.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 09:21:43 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:21:43 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is transmitting the subscription confirmation
+Started GET "/cable" for ::1 at 2017-06-19 09:21:50 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:21:50 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/28" for ::1 at 2017-06-19 09:21:53 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/28-20170421193730022397/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+Write fragment views/products/28-20170421193730022397/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (10.4ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.6ms)
+  Rendered products/_comments.html.erb (7.5ms)
+  Rendered products/show.html.erb within layouts/application (141.6ms)
+Completed 200 OK in 312ms (Views: 190.5ms | ActiveRecord: 2.2ms)
+
+
+ProductChannel#listen({"product_id"=>28})
+ProductChannel#listen({"product_id"=>28})
+ProductChannel stopped streaming from product:28
+ProductChannel is streaming from product:28
+ProductChannel#listen({"product_id"=>28})
+ProductChannel stopped streaming from product:28
+ProductChannel is streaming from product:28
+ProductChannel is streaming from product:28
+Started POST "/products/28/comments" for ::1 at 2017-06-19 09:22:02 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"new comment test for 6.14", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"28"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (19.6ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "new comment test for 6.14"], ["rating", 5], ["product_id", 28], ["created_at", 2017-06-19 13:22:02 UTC], ["updated_at", 2017-06-19 13:22:02 UTC]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendered comments/_comment.html.erb (0.9ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+[ActionCable] Broadcasting to product:28: {:comment=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>new comment test for 6.14</p>\n</div>", :average_rating=>4.5}
+ProductChannel transmitting {"comment"=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>new comment test for 6.14</p>\n</div>", "average_rating"=>4.5} (via streamed from product:28)
+ProductChannel transmitting {"comment"=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>new comment test for 6.14</p>\n</div>", "average_rating"=>4.5} (via streamed from product:28)
+  Rendering comments/create.js.erb
+  Rendered comments/_comment.html.erb (0.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered comments/create.js.erb (7.5ms)
+Completed 200 OK in 123ms (Views: 30.8ms | ActiveRecord: 22.9ms)
+
+
+Started GET "/products/28" for ::1 at 2017-06-19 09:28:57 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/28-20170421193730022397/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 28]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.4ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 28], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered products/_comments.html.erb (10.5ms)
+  Rendered products/show.html.erb within layouts/application (104.9ms)
+Completed 200 OK in 1228ms (Views: 1210.2ms | ActiveRecord: 1.1ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 09:28:58 -0400
+ProductChannel stopped streaming from product:28
+Started GET "/cable" for ::1 at 2017-06-19 09:28:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:28:58 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>28})
+ProductChannel is streaming from product:28
+Started GET "/products" for ::1 at 2017-06-19 09:29:01 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/fd1c657a65e5498890c3ef35071db640 (0.1ms)
+  Rendered products/index.html.erb within layouts/application (29.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 115ms (Views: 78.4ms | ActiveRecord: 0.7ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:28
+ProductChannel is streaming from product:
+Started GET "/products/29" for ::1 at 2017-06-19 09:29:15 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+Write fragment views/products/29-20170421193730026594/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (4.5ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.1ms)
+  Rendered products/_comments.html.erb (7.4ms)
+  Rendered products/show.html.erb within layouts/application (203.1ms)
+Completed 200 OK in 345ms (Views: 308.0ms | ActiveRecord: 1.5ms)
+
+
+ProductChannel#listen({"product_id"=>29})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:29
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:29:22 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"testing comment show up in other browser", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (17.1ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "testing comment show up in other browser"], ["rating", 5], ["product_id", 29], ["created_at", 2017-06-19 13:29:22 UTC], ["updated_at", 2017-06-19 13:29:22 UTC]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendered comments/_comment.html.erb (1.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+[ActionCable] Broadcasting to product:29: {:comment=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>testing comment show up in other browser</p>\n</div>", :average_rating=>4.5}
+ProductChannel transmitting {"comment"=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>testing comment show up in other browser</p>\n</div>", "average_rating"=>4.5} (via streamed from product:29)
+  Rendering comments/create.js.erb
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered comments/create.js.erb (2.3ms)
+Completed 200 OK in 104ms (Views: 22.2ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/products/29" for ::1 at 2017-06-19 09:29:27 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.1ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.1ms)
+  Rendered products/_comments.html.erb (13.5ms)
+  Rendered products/show.html.erb within layouts/application (48.6ms)
+Completed 200 OK in 140ms (Views: 132.2ms | ActiveRecord: 1.0ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 09:29:27 -0400
+Started GET "/cable" for ::1 at 2017-06-19 09:29:27 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:29:27 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:29:52 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"Comment show up in other browser??", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "Comment show up in other browser??"], ["rating", 5], ["product_id", 29], ["created_at", 2017-06-19 13:29:52 UTC], ["updated_at", 2017-06-19 13:29:52 UTC]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendered comments/_comment.html.erb (1.0ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+[ActionCable] Broadcasting to product:29: {:comment=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>Comment show up in other browser??</p>\n</div>", :average_rating=>4.66666666666667}
+ProductChannel transmitting {"comment"=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>Comment show up in other browser??</p>\n</div>", "average_rating"=>4.66666666666667} (via streamed from product:29)
+ProductChannel transmitting {"comment"=>"<duv class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>Comment show up in other browser??</p>\n</div>", "average_rating"=>4.66666666666667} (via streamed from product:29)
+  Rendering comments/create.js.erb
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered comments/create.js.erb (2.2ms)
+Completed 200 OK in 69ms (Views: 20.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/products/29" for ::1 at 2017-06-19 09:57:38 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (21.6ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  Rendered products/_comments.html.erb (16.0ms)
+  Rendered products/show.html.erb within layouts/application (181.8ms)
+Completed 200 OK in 1081ms (Views: 959.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 09:57:39 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:57:39 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/29" for ::1 at 2017-06-19 09:57:42 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/d2f34418bf24a4e9b8f09d72d136056f (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.6ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (0.9ms)
+  Rendered products/_comments.html.erb (14.7ms)
+  Rendered products/show.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 111ms (Views: 103.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 09:57:42 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:57:42 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
+Started GET "/products/29" for ::1 at 2017-06-19 09:58:56 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.0ms)
+Write fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (3.5ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered products/_comments.html.erb (15.9ms)
+  Rendered products/show.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 111ms (Views: 100.0ms | ActiveRecord: 1.0ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 09:58:56 -0400
+Started GET "/cable" for ::1 at 2017-06-19 09:58:56 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:58:56 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
+Started GET "/products/29" for ::1 at 2017-06-19 09:59:02 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.8ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  Rendered products/_comments.html.erb (13.9ms)
+  Rendered products/show.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 104ms (Views: 96.6ms | ActiveRecord: 0.9ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 09:59:02 -0400
+ProductChannel stopped streaming from product:29
+Started GET "/cable" for ::1 at 2017-06-19 09:59:02 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:59:02 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:59:17 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"comment test 9:59", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `-' for nil:NilClass):
+  
+app/controllers/comments_controller.rb:6:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.4ms)
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:59:22 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"comment test 9:59", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `-' for nil:NilClass):
+  
+app/controllers/comments_controller.rb:6:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (68.5ms)
+Started POST "/products/29/comments" for ::1 at 2017-06-19 09:59:50 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"comment test 9:59", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 2.5ms)
+
+
+  
+NoMethodError (undefined method `-' for nil:NilClass):
+  
+app/controllers/comments_controller.rb:6:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (65.0ms)
+Started GET "/cable" for ::1 at 2017-06-19 09:59:59 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 09:59:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/cable" for ::1 at 2017-06-19 10:00:00 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:00:00 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/29" for ::1 at 2017-06-19 10:00:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.1ms)
+Write fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (118.8ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Started GET "/cable" for ::1 at 2017-06-19 10:00:33 -0400
+  Rendered comments/_comment.html.erb (228.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered products/_comments.html.erb (242.2ms)
+  Rendered products/show.html.erb within layouts/application (3996.6ms)
+Completed 200 OK in 4285ms (Views: 4158.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/cable" for ::1 at 2017-06-19 10:00:33 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:00:33 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:00:33 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 10:00:33 -0400
+Started GET "/cable" for ::1 at 2017-06-19 10:00:33 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:00:33 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
+Started POST "/products/29/comments" for ::1 at 2017-06-19 10:00:43 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"new comment 10am", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `-' for nil:NilClass):
+  
+app/controllers/comments_controller.rb:6:in `create'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.2ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (78.9ms)
+Started POST "/products/29/comments" for ::1 at 2017-06-19 10:03:46 -0400
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"body"=>"new comment 10am", "rating"=>"5"}, "commit"=>"submit", "product_id"=>"29"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "body", "rating", "product_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_id", 3], ["body", "new comment 10am"], ["rating", 5], ["product_id", 29], ["created_at", 2017-06-19 14:03:46 UTC], ["updated_at", 2017-06-19 14:03:46 UTC]]
+  [1m[35m (32.9ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] Enqueued CommentUpdateJob (Job ID: 6f4fdb41-c621-4977-9cef-79d3ac0c8b31) to Async(default) with arguments: #<GlobalID:0x007ff9d30daeb0 @uri=#<URI::GID gid://nameofapp/Comment/24>>, nil
+  Rendering comments/create.js.erb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered comments/create.js.erb (1.9ms)
+Completed 200 OK in 180ms (Views: 16.4ms | ActiveRecord: 36.8ms)
+
+
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT ?[0m  [["id", 24], ["LIMIT", 1]]
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31] Performing CommentUpdateJob from Async(default) with arguments: #<GlobalID:0x007ff9d0f0f060 @uri=#<URI::GID gid://nameofapp/Comment/24>>, nil
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31]   Rendered comments/_comment.html.erb (19.3ms)
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31]   [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31]   [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31] [ActionCable] Broadcasting to product:29: {:comment=>"<div class=\"row\">\n\t<hr>\n\t<p>\n\t\t  <small><em>less than a minute ago</em></small>\n  </p>\n  <div class=\"rated\" data-score=\"5\"></div>\n  <p>new comment 10am</p>\n</div>", :average_rating=>4.75}
+[ActiveJob] [CommentUpdateJob] [6f4fdb41-c621-4977-9cef-79d3ac0c8b31] Performed CommentUpdateJob from Async(default) in 110.98ms
+Started GET "/cable" for ::1 at 2017-06-19 10:03:53 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:03:53 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/29" for ::1 at 2017-06-19 10:03:54 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/29-20170421193730026594/0dcaacb6274960f21a6f60ab7f7a9267 (0.1ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 29]]
+  Rendered shared/_stripe_checkout_button.html.erb (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (2.8ms)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 29], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.3ms)
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  Rendered products/_comments.html.erb (20.5ms)
+  Rendered products/show.html.erb within layouts/application (84.3ms)
+Started GET "/cable" for ::1 at 2017-06-19 10:03:55 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:03:55 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Completed 200 OK in 445ms (Views: 421.5ms | ActiveRecord: 1.0ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 10:03:55 -0400
+Started GET "/cable" for ::1 at 2017-06-19 10:03:55 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-19 10:03:55 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+ProductChannel#listen({"product_id"=>29})
+ProductChannel is streaming from product:29
