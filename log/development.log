@@ -21523,3 +21523,5 @@ Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
 ProductChannel is transmitting the subscription confirmation
 ProductChannel#listen({"product_id"=>29})
 ProductChannel is streaming from product:29
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-19 10:08:15 -0400
+ProductChannel stopped streaming from product:29
