@@ -1,18 +1,19 @@
 class OrdersController < ApplicationController
-	before_filter :authenticate_user!
-	def index
-	end
+  before_filter :authenticate_user!
 
-	def show
-	end
+  def index
+  end
 
-	def new
-	end
+  def show
+  end
 
-	def create
-	end
+  def new
+  end
 
-	def destroy
-	end
-	
+  def create
+  end
+
+  def destroy
+  end
+
 end
