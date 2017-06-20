@@ -3,12 +3,12 @@ class StaticPagesController < ApplicationController
   end
 
   def landing_page
-  	@featured_product = Product.first
+    @featured_product = Product.first
   end
 
-	def landing_page
-  	@products = Product.limit(4)
-	end
+  def landing_page
+    @products = Product.limit(4)
+  end
 
   def thank_you
     @name = params[:name]
