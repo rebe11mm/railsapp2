@@ -21598,3 +21598,366 @@ Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrad
   [1m[36mUser Load (1068.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
 Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
 ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 13:23:49 -0400
+Started GET "/cable" for ::1 at 2017-06-20 13:23:52 -0400
+Started GET "/cable" for ::1 at 2017-06-20 13:23:52 -0400
+Started GET "/cable" for ::1 at 2017-06-20 13:24:10 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 13:24:10 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 13:24:10 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2017-06-20 13:24:15 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 13:24:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 13:24:16 -0400
+LoadError (Unable to autoload constant ApplicationCable::Connection, expected /Users/rebeccamcmurray/Documents/Coding School/Rails Project/Ruby on Rails 2/app/channels/application_cable/connection.rb to define it):
+  
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+activesupport (5.0.1) lib/active_support/dependencies.rb:512:in `load_missing_constant'
+activesupport (5.0.1) lib/active_support/dependencies.rb:203:in `const_missing'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:270:in `const_get'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:270:in `block in constantize'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:266:in `constantize'
+activesupport (5.0.1) lib/active_support/inflector/methods.rb:311:in `safe_constantize'
+activesupport (5.0.1) lib/active_support/core_ext/string/inflections.rb:77:in `safe_constantize'
+actioncable (5.0.1) lib/action_cable/engine.rb:35:in `block (3 levels) in <class:Engine>'
+actioncable (5.0.1) lib/action_cable/server/base.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.1) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Started GET "/cable" for ::1 at 2017-06-20 13:24:21 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 13:24:21 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1031.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (420.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (599.8ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (4057.8ms)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 14:04:58 -0400
+Started GET "/cable" for ::1 at 2017-06-20 14:05:03 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 14:05:07 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Started GET "/cable" for ::1 at 2017-06-20 14:05:08 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 14:05:08 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (306.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+  [1m[36mUser Load (683.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 14:05:08 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 14:23:04 -0400
+Started GET "/cable" for ::1 at 2017-06-20 14:23:08 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 14:23:08 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 15:47:42 -0400
+Started GET "/cable" for ::1 at 2017-06-20 15:47:48 -0400
+Started GET "/cable" for ::1 at 2017-06-20 15:47:52 -0400
+Started GET "/cable" for ::1 at 2017-06-20 15:47:59 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 15:48:02 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 15:48:02 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 15:48:02 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 15:48:02 -0400
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 15:48:02 -0400
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-20 20:01:26 -0400
+Started GET "/cable" for ::1 at 2017-06-20 20:01:30 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-20 20:01:30 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (39.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-21 07:18:26 -0400
+Started GET "/cable" for ::1 at 2017-06-21 07:18:29 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-21 07:18:29 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-21 12:02:02 -0400
+Started GET "/cable" for ::1 at 2017-06-21 12:02:09 -0400
+Started GET "/cable" for ::1 at 2017-06-21 12:02:12 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-21 12:02:15 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-21 12:02:15 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+  [1m[36mUser Load (43.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-21 12:02:15 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-21 12:03:02 -0400
+Started GET "/cable" for ::1 at 2017-06-21 12:03:05 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-21 12:03:05 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (175.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:17 -0400
+Started GET "/cable" for ::1 at 2017-06-22 20:44:25 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:25 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1170.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:27 -0400
+Started GET "/cable" for ::1 at 2017-06-22 20:44:31 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:32 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (792.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:33 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Started GET "/cable" for ::1 at 2017-06-22 20:44:33 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-22 20:44:34 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-22 21:24:37 -0400
+Started GET "/cable" for ::1 at 2017-06-22 21:24:42 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-22 21:24:42 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (620.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-22 21:43:02 -0400
+Started GET "/cable" for ::1 at 2017-06-22 21:43:06 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-22 21:43:06 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (547.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:28 -0400
+Started GET "/cable" for ::1 at 2017-06-23 01:54:31 -0400
+Started GET "/cable" for ::1 at 2017-06-23 01:54:34 -0400
+Started GET "/cable" for ::1 at 2017-06-23 01:54:41 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:44 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:44 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1259.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (143.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+  [1m[36mUser Load (824.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:47 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-23 01:54:47 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-23 01:55:14 -0400
+Started GET "/cable" for ::1 at 2017-06-23 01:55:16 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-23 01:55:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-26 08:21:09 -0400
+Started GET "/cable" for ::1 at 2017-06-26 08:21:12 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-26 08:21:15 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (630.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-26 12:55:23 -0400
+Started GET "/cable" for ::1 at 2017-06-26 12:55:27 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-26 12:55:27 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (190.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-26 12:56:22 -0400
+Started GET "/cable" for ::1 at 2017-06-26 12:56:26 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-26 12:56:26 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-27 08:52:50 -0400
+Started GET "/cable" for ::1 at 2017-06-27 08:52:58 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-27 08:52:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (407.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Finished "/cable/" [WebSocket] for ::1 at 2017-06-27 08:52:59 -0400
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Started GET "/cable" for ::1 at 2017-06-27 08:53:00 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-06-27 08:53:01 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (141.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products/29" for ::1 at 2017-07-06 08:19:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProduct Load (19.1ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 20.0ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.6ms)
+Started GET "/" for ::1 at 2017-07-06 08:19:16 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3904.6ms)
+  [1m[36mUser Load (11.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 4209ms (Views: 4146.2ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/cable" for ::1 at 2017-07-06 08:19:20 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-07-06 08:19:21 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/" for ::1 at 2017-07-06 08:21:45 -0400
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (6.8ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (24.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 414ms (Views: 394.9ms | ActiveRecord: 7.0ms)
+
+
+Finished "/cable/" [WebSocket] for ::1 at 2017-07-06 08:21:45 -0400
+Started GET "/cable" for ::1 at 2017-07-06 08:21:46 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-07-06 08:21:46 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/static_pages/about" for ::1 at 2017-07-06 08:21:49 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (13.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 0.2ms)
+
+
+ProductChannel#listen
+ProductChannel is streaming from product:
+Started GET "/products" for ::1 at 2017-07-06 08:21:51 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/9cd3365dffec5507d0af40f5ec3457b0 (0.2ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Write fragment views/products/27-20170523155712505286/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Read fragment views/products/28-20170421193730022397/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+Write fragment views/products/28-20170421193730022397/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Read fragment views/products/29-20170421193730026594/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+Write fragment views/products/29-20170421193730026594/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+Read fragment views/products/30-20170421193730029502/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+Write fragment views/products/30-20170421193730029502/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+  Rendered collection of products/_product.html.erb [4 times] (21.2ms)
+Write fragment views/products/all-4-20170523155712/9cd3365dffec5507d0af40f5ec3457b0 (0.0ms)
+  Rendered products/index.html.erb within layouts/application (51.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 150ms (Views: 88.5ms | ActiveRecord: 0.7ms)
+
+
+ProductChannel#listen
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:
+Started GET "/products/27" for ::1 at 2017-07-06 08:21:54 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (7.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 7.5ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/models/product.rb:31:in `viewed!'
+app/controllers/products_controller.rb:19:in `show'
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rebeccamcmurray/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.0ms)
