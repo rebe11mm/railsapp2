@@ -22055,3 +22055,78 @@ Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrad
   [1m[36mUser Load (609.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
 Finished "/cable/" [WebSocket] for ::1 at 2017-07-09 15:09:54 -0400
 Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+Started GET "/" for ::1 at 2017-07-17 14:56:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (18.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 4]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (5503.5ms)
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 6276ms (Views: 6022.2ms | ActiveRecord: 52.8ms)
+
+
+Started GET "/cable" for ::1 at 2017-07-17 14:56:17 -0400
+Started GET "/cable" for ::1 at 2017-07-17 14:56:28 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-07-17 14:56:28 -0400
+Started GET "/cable/" [WebSocket] for ::1 at 2017-07-17 14:56:28 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for ::1 at 2017-07-17 14:56:28 -0400
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Registered connection (Z2lkOi8vbmFtZW9mYXBwL1VzZXIvMw)
+ProductChannel is transmitting the subscription confirmation
+Started GET "/products" for ::1 at 2017-07-17 14:56:38 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[35m (20.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT MAX("products"."updated_at") FROM "products"[0m
+Read fragment views/products/all-4-20170523155712/9cd3365dffec5507d0af40f5ec3457b0 (2.0ms)
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Read fragment views/products/27-20170523155712505286/a4137c160a7631c0ba70d92e1f7a1de8 (0.2ms)
+Write fragment views/products/27-20170523155712505286/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Read fragment views/products/28-20170421193730022397/a4137c160a7631c0ba70d92e1f7a1de8 (0.0ms)
+Write fragment views/products/28-20170421193730022397/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Read fragment views/products/29-20170421193730026594/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Write fragment views/products/29-20170421193730026594/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Read fragment views/products/30-20170421193730029502/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+Write fragment views/products/30-20170421193730029502/a4137c160a7631c0ba70d92e1f7a1de8 (0.1ms)
+  Rendered collection of products/_product.html.erb [4 times] (227.9ms)
+Write fragment views/products/all-4-20170523155712/9cd3365dffec5507d0af40f5ec3457b0 (0.0ms)
+  Rendered products/index.html.erb within layouts/application (1949.4ms)
+  [1m[36mUser Load (323.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 5312ms (Views: 4251.4ms | ActiveRecord: 345.3ms)
+
+
+ProductChannel#listen
+ProductChannel is streaming from product:
+Started GET "/products/27" for ::1 at 2017-07-17 14:56:49 -0400
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+Read fragment views/products/27-20170523155712505286/45968b6f4b70e1a523a10e46f6269210 (0.1ms)
+Write fragment views/products/27-20170523155712505286/45968b6f4b70e1a523a10e46f6269210 (0.1ms)
+  [1m[35m (29.1ms)[0m  [1m[34mSELECT AVG("comments"."rating") FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered shared/_stripe_checkout_button.html.erb (1.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered products/_new_comment.html.erb (622.2ms)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."product_id" = ? LIMIT ? OFFSET ?[0m  [["product_id", 27], ["LIMIT", 5], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (199.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (2.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered comments/_comment.html.erb (1.5ms)
+  Rendered products/_comments.html.erb (217.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."product_id" = ?[0m  [["product_id", 27]]
+  Rendered products/show.html.erb within layouts/application (1346.8ms)
+Completed 200 OK in 1803ms (Views: 1408.4ms | ActiveRecord: 31.8ms)
+
+
+ProductChannel#listen({"product_id"=>27})
+ProductChannel stopped streaming from product:
+ProductChannel is streaming from product:27
