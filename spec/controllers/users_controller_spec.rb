@@ -6,7 +6,6 @@ describe UsersController, type: :controller do
 	#let(:different_user) {User.create!(email: "testeranne@test.com", password: "testeranne")}
 	before do
 		@user = FactoryGirl.create(:user)
-		@different_user = FactoryGirl.create(:user)
 	end
 
 
@@ -36,6 +35,7 @@ describe UsersController, type: :controller do
 			end
 
 			it 'is not allowed to view user show' do
+				@different_user = FactoryGirl.create(:user)
 				get :show, params:{id: @different_user.id}
 				expect(response).to redirect_to(root_path)
 			end
