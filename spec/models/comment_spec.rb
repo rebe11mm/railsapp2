@@ -20,7 +20,7 @@ describe Comment do
       body: nil,
       user_id: @user.id,
       product_id: @product.id,
-      rating: 5)).to_not be_valid
+      rating: 5)).not_to be_valid
   end
 
   it "is invalid without a user" do
@@ -28,7 +28,7 @@ describe Comment do
       body: "Commenttext",
       user_id: nil,
       product_id: @product.id,
-      rating: 5)).to_not be_valid
+      rating: 5)).not_to be_valid
   end
 
   it "is invalid without a product" do
@@ -36,7 +36,7 @@ describe Comment do
       body: "Commenttext",
       user_id: @user_id,
       product_id: nil,
-      rating: 5)).to_not be_valid
+      rating: 5)).not_to be_valid
   end
 
   it "is invalid without a rating" do
@@ -44,15 +44,7 @@ describe Comment do
       body: "Commenttext",
       user_id: @user_id,
       product_id: @product.id,
-      rating: 5)).to_not be_valid
-  end
-
-  it "is invalid without a numerical rating" do
-    expect(Comment.new(
-      body: "Commenttext",
-      user_id: @user_id,
-      product_id: @product.id,
-      rating: "five")).to_not be_valid
+      rating: 5)).not_to be_valid
   end
 
 end
